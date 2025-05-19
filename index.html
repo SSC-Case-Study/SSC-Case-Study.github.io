@@ -480,14 +480,21 @@
       Plotly.newPlot('scatter-plot', [trace], layout, { responsive: true });
     }
 
-    // 3D scatter plot with fixed oxygen display
-    function plot3D() {
+    // 3D scatter plot that updates based on selected parameter
+    function plot3D(selectedData = 'micromoles_of_oxygen_per_unit_mass_in_sea_water') {
       if (!dataset.length) return;
+
+      const labels = {
+        micromoles_of_oxygen_per_unit_mass_in_sea_water: 'Oxygen (µmol/L)',
+        sea_water_density: 'Density (kg/m³)',
+        sea_water_practical_salinity: 'Salinity (PSU)',
+        sea_water_temperature: 'Temperature (°C)'
+      };
 
       const lat = dataset.map(d => d.Latitude);
       const lon = dataset.map(d => d.Longitude);
       const depth = dataset.map(d => +d.depth);
-      const oxygen = dataset.map(d => +d.micromoles_of_oxygen_per_unit_mass_in_sea_water);
+      const values = dataset.map(d => +d[selectedData]);
 
       const trace = {
         x: lat,
@@ -496,19 +503,19 @@
         mode: 'markers',
         marker: {
           size: 2,
-          color: oxygen,
+          color: values,
           colorscale: 'Viridis',
           opacity: 0.8,
-          colorbar: { title: 'Oxygen (µmol/L)' },
-          cmin: Math.min(...oxygen),
-          cmax: Math.max(...oxygen),
+          colorbar: { title: labels[selectedData] },
+          cmin: Math.min(...values),
+          cmax: Math.max(...values),
         },
         type: 'scatter3d',
         hovertemplate:
           '<b>Latitude:</b> %{x:.4f}°<br>' +
           '<b>Longitude:</b> %{y:.4f}°<br>' +
           '<b>Depth:</b> %{z}m<br>' +
-          '<b>Oxygen:</b> %{marker.color:.2f} µmol/L<extra></extra>',
+          `<b>${selectedData.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}:</b> %{marker.color:.2f} ${labels[selectedData].match(/\(([^)]+)\)/)?.[1] || ''}<extra></extra>`,
       };
 
       const layout = {
@@ -519,6 +526,10 @@
         },
         margin: { l: 0, r: 0, b: 0, t: 0 },
         paper_bgcolor: 'white',
+        title: {
+          text: `3D Visualization of ${labels[selectedData].split(' ')[0]}`,
+          font: { size: 16 }
+        }
       };
 
       Plotly.newPlot('scatter3d-plot', [trace], layout, { responsive: true });
@@ -528,6 +539,7 @@
     document.getElementById('update-graph-btn').addEventListener('click', () => {
       const selectedData = document.getElementById('data-type-select').value;
       plotScatter(selectedData);
+      plot3D(selectedData);
     });
 
     // Add loading overlay function
@@ -579,7 +591,7 @@
         
         // Initialize plots
         plotScatter('micromoles_of_oxygen_per_unit_mass_in_sea_water');
-        plot3D();
+        plot3D('micromoles_of_oxygen_per_unit_mass_in_sea_water');
         
         // Remove loading indicators
         removeLoadingOverlay('map');
