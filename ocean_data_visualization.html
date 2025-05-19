@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ocean Data Visualization from JSON</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  />
+  <style>
+    /* 保持和之前一致的样式 */
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      gap: 20px;
+    }
+    .left-side {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    #map {
+      height: 55%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+    .metadata {
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      flex-grow: 1;
+    }
+    .metadata table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .metadata th,
+    .metadata td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .metadata th {
+      background-color: #f2f2f2;
+    }
+    .right-side {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .control-panel {
+      padding: 15px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      gap: 10px;
+    }
+    #data-type-select {
+      flex: 1;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    #update-graph-btn {
+      padding: 8px 16px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #update-graph-btn:hover {
+      background-color: #45a049;
+    }
+    .graph-container,
+    .three-d-container {
+      height: 45%;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      display: none !important;
+      text-align: center;
+      padding: 15px;
+      background-color: #333;
+      color: white;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- 左侧 -->
+    <div class="left-side">
+      <div id="map"></div>
+
+      <div class="metadata">
+        <h2>Dataset Metadata</h2>
+        <table id="metadata-table">
+          <!-- 动态填充 -->
+        </table>
+      </div>
+    </div>
+
+    <!-- 右侧 -->
+    <div class="right-side">
+      <div class="control-panel">
+        <select id="data-type-select">
+          <option value="micromoles_of_oxygen_per_unit_mass_in_sea_water">Oxygen</option>
+          <option value="sea_water_density">Density</option>
+          <option value="sea_water_practical_salinity">Salinity</option>
+        </select>
+        <button id="update-graph-btn">Update</button>
+      </div>
+
+      <div class="graph-container">
+        <div id="scatter-plot" style="width: 100%; height: 100%;"></div>
+      </div>
+
+      <div class="three-d-container">
+        <div id="scatter3d-plot" style="width: 100%; height: 100%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let dataset = []; // 全局存储加载的数据
+
+    function parseDate(str) {
+      return new Date(str);
+    }
+
+    // 计算元数据并更新表格
+    function updateMetadata(data) {
+      const times = data.map(d => parseDate(d.time));
+      const depths = data.map(d => +d.depth);
+
+      const dateMin = new Date(Math.min(...times));
+      const dateMax = new Date(Math.max(...times));
+      const depthMin = Math.min(...depths);
+      const depthMax = Math.max(...depths);
+
+      const metadataHTML = `
+      <tr><th>Date Range</th><td>${dateMin.toLocaleDateString()} - ${dateMax.toLocaleDateString()}</td></tr>
+      <tr><th>Depth Range</th><td>${depthMin}m - ${depthMax}m</td></tr>
+      <tr><th>Data Points</th><td>${data.length}</td></tr>
+      <tr><th>Institution</th><td>Dalhousie University</td></tr>`;
+
+      document.getElementById('metadata-table').innerHTML = metadataHTML;
+    }
+
+    // 初始化 Leaflet 地图并绘制所有点
+    function initMap(data) {
+      const map = L.map('map').setView([44.67, -63.6], 10);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors',
+      }).addTo(map);
+
+      data.forEach(row => {
+        const popupContent = `
+          <b>Time:</b> ${row.time}<br>
+          <b>Oxygen:</b> ${row.micromoles_of_oxygen_per_unit_mass_in_sea_water} µmol/L<br>
+          <b>Temperature:</b> ${row.sea_water_temperature} °C<br>
+          <b>Salinity:</b> ${row.sea_water_practical_salinity} PSU<br>
+          <b>Density:</b> ${row.sea_water_density} kg/m³<br>
+          <b>Latitude:</b> ${row.Latitude}<br>
+          <b>Longitude:</b> ${row.Longitude}<br>
+        `;
+        L.circleMarker([row.Latitude, row.Longitude], {
+          radius: 4,
+          color: 'white',
+          fillColor: 'white',
+          fillOpacity: 1.0,
+        }).bindPopup(popupContent).addTo(map);
+      });
+    }
+
+    // 根据选择绘制2D散点图
+    function plotScatter(selectedData) {
+      if (!dataset.length) return;
+
+      const labels = {
+        micromoles_of_oxygen_per_unit_mass_in_sea_water: 'Oxygen (µmol/L)',
+        sea_water_density: 'Density (kg/m³)',
+        sea_water_practical_salinity: 'Salinity (PSU)'
+      };
+
+      const x = dataset.map(d => d.time);
+      const y = dataset.map(d => +d.depth);
+      const color = dataset.map(d => +d[selectedData]);
+      const text = dataset.map(d => `
+        Time: ${d.time}<br>
+        Depth: ${d.depth}m<br>
+        Oxygen: ${d.micromoles_of_oxygen_per_unit_mass_in_sea_water} µmol/L<br>
+        Density: ${d.sea_water_density} kg/m³<br>
+        Salinity: ${d.sea_water_practical_salinity} PSU<br>
+        Temperature: ${d.sea_water_temperature} °C
+      `);
+
+      const trace = {
+        x: x,
+        y: y,
+        mode: 'markers',
+        marker: {
+          size: 4,
+          color: color,
+          colorscale: 'Viridis',
+          colorbar: { title: labels[selectedData], titleside: 'right' },
+          cmin: Math.min(...color),
+          cmax: Math.max(...color),
+          opacity: 0.8,
+        },
+        text: text,
+        hoverinfo: 'text',
+      };
+
+      const layout = {
+        yaxis: { autorange: 'reversed', title: 'Depth (m)' },
+        xaxis: { title: 'Time', tickangle: 45 },
+        margin: { t: 30, b: 60, l: 50, r: 20 },
+        hovermode: 'closest',
+        plot_bgcolor: 'white',
+        paper_bgcolor: 'white',
+      };
+
+      Plotly.newPlot('scatter-plot', [trace], layout, { responsive: true });
+    }
+
+    // 3D 散点图，固定显示氧气
+    function plot3D() {
+      if (!dataset.length) return;
+
+      const lat = dataset.map(d => d.Latitude);
+      const lon = dataset.map(d => d.Longitude);
+      const depth = dataset.map(d => +d.depth);
+      const oxygen = dataset.map(d => +d.micromoles_of_oxygen_per_unit_mass_in_sea_water);
+
+      const trace = {
+        x: lat,
+        y: lon,
+        z: depth,
+        mode: 'markers',
+        marker: {
+          size: 2,
+          color: oxygen,
+          colorscale: 'Viridis',
+          opacity: 0.8,
+          colorbar: { title: 'Oxygen (µmol/L)' },
+          cmin: Math.min(...oxygen),
+          cmax: Math.max(...oxygen),
+        },
+        type: 'scatter3d',
+        hovertemplate:
+          '<b>Latitude:</b> %{x:.4f}°<br>' +
+          '<b>Longitude:</b> %{y:.4f}°<br>' +
+          '<b>Depth:</b> %{z}m<br>' +
+          '<b>Oxygen:</b> %{marker.color:.2f} µmol/L<extra></extra>',
+      };
+
+      const layout = {
+        scene: {
+          xaxis: { title: 'Latitude (°)' },
+          yaxis: { title: 'Longitude (°)' },
+          zaxis: { title: 'Depth (m)', autorange: 'reversed' },
+        },
+        margin: { l: 0, r: 0, b: 0, t: 0 },
+        paper_bgcolor: 'white',
+      };
+
+      Plotly.newPlot('scatter3d-plot', [trace], layout, { responsive: true });
+    }
+
+    document.getElementById('update-graph-btn').addEventListener('click', () => {
+      const selectedData = document.getElementById('data-type-select').value;
+      plotScatter(selectedData);
+    });
+
+    // 加载本地 JSON 文件函数
+    async function loadData() {
+      try {
+        const response = await fetch('static_data.json');
+        const data = await response.json();
+
+        // 格式化时间字符串(如果需要)
+        data.forEach(d => {
+          if (typeof d.time === 'string' && !d.time.endsWith('Z')) {
+            d.time += 'Z';
+          }
+        });
+
+        dataset = data;
+
+        updateMetadata(dataset);
+        initMap(dataset);
+        plotScatter('micromoles_of_oxygen_per_unit_mass_in_sea_water');
+        plot3D();
+      } catch (err) {
+        alert('加载数据失败，请确保在服务器环境下打开网页，错误：' + err);
+      }
+    }
+
+    window.onload = loadData;
+  </script>
+</body>
+</html>

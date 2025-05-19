@@ -1,0 +1,5042 @@
+[
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 307.137196469794,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 28.908497147371108,
+    "sea_water_density": 1029.5253,
+    "sea_water_practical_salinity": 34.583,
+    "sea_water_temperature": 6.2055
+  },
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 257.630033013055,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 57.6339715,
+    "sea_water_density": 1028.8988,
+    "sea_water_practical_salinity": 34.243,
+    "sea_water_temperature": 5.478
+  },
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 203.158367929783,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 90.84014740637085,
+    "sea_water_density": 1028.1904,
+    "sea_water_practical_salinity": 33.7871,
+    "sea_water_temperature": 4.4462
+  },
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 126.873731562839,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 244.6456094132256,
+    "sea_water_density": 1026.8361,
+    "sea_water_practical_salinity": 32.3563,
+    "sea_water_temperature": 1.6449
+  },
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 50.5606811316787,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 265.664677,
+    "sea_water_density": 1022.7674,
+    "sea_water_practical_salinity": 30.3845,
+    "sea_water_temperature": 10.2512
+  },
+  {
+    "time": "2021-10-22T21:07:00",
+    "depth": 4.95748241565999,
+    "Latitude": 49.1013889,
+    "Longitude": -67.2775,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 269.6230022449544,
+    "sea_water_density": 1021.9502,
+    "sea_water_practical_salinity": 30.0266,
+    "sea_water_temperature": 10.6053
+  },
+  {
+    "time": "2021-10-23T02:10:00",
+    "depth": 307.128012983832,
+    "Latitude": 49.4288889,
+    "Longitude": -66.33194444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 37.71200445691488,
+    "sea_water_density": 1029.6144,
+    "sea_water_practical_salinity": 34.7783,
+    "sea_water_temperature": 6.5414
+  },
+  {
+    "time": "2021-10-23T02:10:00",
+    "depth": 250.690582149396,
+    "Latitude": 49.4288889,
+    "Longitude": -66.33194444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 34.026815350594234,
+    "sea_water_density": 1028.9931,
+    "sea_water_practical_salinity": 34.6817,
+    "sea_water_temperature": 6.4112
+  },
+  {
+    "time": "2021-10-23T02:10:00",
+    "depth": 4.95733418055089,
+    "Latitude": 49.4288889,
+    "Longitude": -66.33194444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 277.1469300036923,
+    "sea_water_density": 1022.1423,
+    "sea_water_practical_salinity": 30.1341,
+    "sea_water_temperature": 10.0748
+  },
+  {
+    "time": "2021-10-23T06:53:00",
+    "depth": 348.701377084808,
+    "Latitude": 49.4980556,
+    "Longitude": -65.22527778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 50.55898314700491,
+    "sea_water_density": 1030.0619,
+    "sea_water_practical_salinity": 34.8354,
+    "sea_water_temperature": 6.6319
+  },
+  {
+    "time": "2021-10-23T06:53:00",
+    "depth": 250.689000709127,
+    "Latitude": 49.4980556,
+    "Longitude": -65.22527778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 41.1924608351066,
+    "sea_water_density": 1028.9885,
+    "sea_water_practical_salinity": 34.6709,
+    "sea_water_temperature": 6.3913
+  },
+  {
+    "time": "2021-10-23T06:53:00",
+    "depth": 4.95730290716099,
+    "Latitude": 49.4980556,
+    "Longitude": -65.22527778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 282.669544,
+    "sea_water_density": 1022.4796,
+    "sea_water_practical_salinity": 30.3741,
+    "sea_water_temperature": 9.3485
+  },
+  {
+    "time": "2021-10-23T10:59:00",
+    "depth": 138.756826812014,
+    "Latitude": 49.6769444,
+    "Longitude": -64.39972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 200.5257065014423,
+    "sea_water_density": 1027.2754,
+    "sea_water_practical_salinity": 33.0634,
+    "sea_water_temperature": 2.8764
+  },
+  {
+    "time": "2021-10-23T10:59:00",
+    "depth": 19.8281669749696,
+    "Latitude": 49.6769444,
+    "Longitude": -64.39972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 267.319759053504,
+    "sea_water_density": 1023.3376,
+    "sea_water_practical_salinity": 30.7509,
+    "sea_water_temperature": 7.3157
+  },
+  {
+    "time": "2021-10-23T10:59:00",
+    "depth": 4.95722207961813,
+    "Latitude": 49.6769444,
+    "Longitude": -64.39972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 268.7528881504064,
+    "sea_water_density": 1022.1814,
+    "sea_water_practical_salinity": 30.1161,
+    "sea_water_temperature": 9.8072
+  },
+  {
+    "time": "2021-10-23T12:26:00",
+    "depth": 283.363629404743,
+    "Latitude": 49.5505556,
+    "Longitude": -64.49611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 51.88974587984292,
+    "sea_water_density": 1029.3085,
+    "sea_water_practical_salinity": 34.7222,
+    "sea_water_temperature": 6.6462
+  },
+  {
+    "time": "2021-10-23T12:26:00",
+    "depth": 80.2931293458555,
+    "Latitude": 49.5505556,
+    "Longitude": -64.49611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 246.948852604676,
+    "sea_water_density": 1026.3572,
+    "sea_water_practical_salinity": 32.3169,
+    "sea_water_temperature": 1.5314
+  },
+  {
+    "time": "2021-10-23T12:26:00",
+    "depth": 9.91443811798834,
+    "Latitude": 49.5505556,
+    "Longitude": -64.49611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 269.87891815511546,
+    "sea_water_density": 1022.1948,
+    "sea_water_practical_salinity": 30.1089,
+    "sea_water_temperature": 9.9616
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 358.601209653609,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.13076642321886,
+    "sea_water_density": 1030.1831,
+    "sea_water_practical_salinity": 34.8772,
+    "sea_water_temperature": 6.6933
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 269.504726857405,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 46.669061312555336,
+    "sea_water_density": 1029.1822,
+    "sea_water_practical_salinity": 34.7109,
+    "sea_water_temperature": 6.5326
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 199.190231868598,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 74.3963035,
+    "sea_water_density": 1028.2546,
+    "sea_water_practical_salinity": 34.1802,
+    "sea_water_temperature": 5.4978
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 100.114834215502,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 246.94885260467595,
+    "sea_water_density": 1026.829,
+    "sea_water_practical_salinity": 32.8747,
+    "sea_water_temperature": 2.4037
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 60.4712541407488,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 265.5223195,
+    "sea_water_density": 1025.9503,
+    "sea_water_practical_salinity": 32.1147,
+    "sea_water_temperature": 1.7574
+  },
+  {
+    "time": "2021-10-23T13:58:00",
+    "depth": 9.91454611273668,
+    "Latitude": 49.4311111,
+    "Longitude": -64.59833333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 263.48102040108665,
+    "sea_water_density": 1022.3236,
+    "sea_water_practical_salinity": 30.3804,
+    "sea_water_temperature": 10.4035
+  },
+  {
+    "time": "2021-10-23T15:44:00",
+    "depth": 366.522606392081,
+    "Latitude": 49.3241667,
+    "Longitude": -64.69222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 61.30745137377346,
+    "sea_water_density": 1030.2431,
+    "sea_water_practical_salinity": 34.8355,
+    "sea_water_temperature": 6.6265
+  },
+  {
+    "time": "2021-10-23T15:44:00",
+    "depth": 302.180868714431,
+    "Latitude": 49.3241667,
+    "Longitude": -64.69222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 35.4599444474967,
+    "sea_water_density": 1029.5145,
+    "sea_water_practical_salinity": 34.686,
+    "sea_water_temperature": 6.4216
+  },
+  {
+    "time": "2021-10-23T15:44:00",
+    "depth": 9.91464286558732,
+    "Latitude": 49.3241667,
+    "Longitude": -64.69222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 272.4892604387593,
+    "sea_water_density": 1022.114,
+    "sea_water_practical_salinity": 30.076,
+    "sea_water_temperature": 10.2342
+  },
+  {
+    "time": "2021-10-23T18:20:00",
+    "depth": 370.483197604311,
+    "Latitude": 49.2722222,
+    "Longitude": -64.27944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.56551501544101,
+    "sea_water_density": 1030.319,
+    "sea_water_practical_salinity": 34.8947,
+    "sea_water_temperature": 6.6836
+  },
+  {
+    "time": "2021-10-23T18:20:00",
+    "depth": 287.331278749192,
+    "Latitude": 49.2722222,
+    "Longitude": -64.27944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 71.47098965791345,
+    "sea_water_density": 1029.3551,
+    "sea_water_practical_salinity": 34.7048,
+    "sea_water_temperature": 6.5438
+  },
+  {
+    "time": "2021-10-23T18:20:00",
+    "depth": 9.9146898799182,
+    "Latitude": 49.2722222,
+    "Longitude": -64.27944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 298.3369509275992,
+    "sea_water_density": 1022.2969,
+    "sea_water_practical_salinity": 30.2971,
+    "sea_water_temperature": 10.2041
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 379.399774697378,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.1771693775712,
+    "sea_water_density": 1030.4128,
+    "sea_water_practical_salinity": 34.909,
+    "sea_water_temperature": 6.722
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 306.15000708221,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.60908585357431,
+    "sea_water_density": 1029.5375,
+    "sea_water_practical_salinity": 34.7238,
+    "sea_water_temperature": 6.6577
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 249.710093802566,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 96.1780555,
+    "sea_water_density": 1028.8175,
+    "sea_water_practical_salinity": 34.6083,
+    "sea_water_temperature": 6.9458
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 149.664411619187,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 167.98672159426883,
+    "sea_water_density": 1027.5225,
+    "sea_water_practical_salinity": 33.5738,
+    "sea_water_temperature": 4.2329
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 59.4824081008745,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 295.5502615,
+    "sea_water_density": 1026.0554,
+    "sea_water_practical_salinity": 32.107,
+    "sea_water_temperature": 1.1509
+  },
+  {
+    "time": "2021-10-24T00:06:00",
+    "depth": 9.91493647195309,
+    "Latitude": 49.0,
+    "Longitude": -63.12722222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 278.1288088652723,
+    "sea_water_density": 1022.3562,
+    "sea_water_practical_salinity": 30.5937,
+    "sea_water_temperature": 11.094
+  },
+  {
+    "time": "2021-10-24T05:12:00",
+    "depth": 390.297554242238,
+    "Latitude": 48.6772222,
+    "Longitude": -62.25083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.5273323208974,
+    "sea_water_density": 1030.6352,
+    "sea_water_practical_salinity": 34.9687,
+    "sea_water_temperature": 6.3988
+  },
+  {
+    "time": "2021-10-24T05:12:00",
+    "depth": 252.68846427273,
+    "Latitude": 48.6772222,
+    "Longitude": -62.25083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.39755118532894,
+    "sea_water_density": 1028.9686,
+    "sea_water_practical_salinity": 34.8288,
+    "sea_water_temperature": 7.2221
+  },
+  {
+    "time": "2021-10-24T05:12:00",
+    "depth": 69.3965106631463,
+    "Latitude": 48.6772222,
+    "Longitude": -62.25083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 285.79041997796105,
+    "sea_water_density": 1026.3022,
+    "sea_water_practical_salinity": 32.2777,
+    "sea_water_temperature": 1.0997
+  },
+  {
+    "time": "2021-10-24T05:12:00",
+    "depth": 9.91522928746339,
+    "Latitude": 48.6772222,
+    "Longitude": -62.25083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 274.121767,
+    "sea_water_density": 1022.0465,
+    "sea_water_practical_salinity": 30.1769,
+    "sea_water_temperature": 10.9749
+  },
+  {
+    "time": "2021-10-24T11:25:00",
+    "depth": 239.811435198057,
+    "Latitude": 48.7866667,
+    "Longitude": -60.97083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 84.06894081636153,
+    "sea_water_density": 1028.6751,
+    "sea_water_practical_salinity": 34.4659,
+    "sea_water_temperature": 6.5879
+  },
+  {
+    "time": "2021-10-24T11:25:00",
+    "depth": 69.3958154233426,
+    "Latitude": 48.7866667,
+    "Longitude": -60.97083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 308.1067906014977,
+    "sea_water_density": 1026.2222,
+    "sea_water_practical_salinity": 32.1166,
+    "sea_water_temperature": 0.8554
+  },
+  {
+    "time": "2021-10-24T11:25:00",
+    "depth": 9.91512995238097,
+    "Latitude": 48.7866667,
+    "Longitude": -60.97083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 279.46573429433204,
+    "sea_water_density": 1022.4052,
+    "sea_water_practical_salinity": 30.586,
+    "sea_water_temperature": 10.8182
+  },
+  {
+    "time": "2021-10-24T13:16:00",
+    "depth": 371.494468796286,
+    "Latitude": 48.6372222,
+    "Longitude": -61.14416667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 118.72616155429633,
+    "sea_water_density": 1030.4457,
+    "sea_water_practical_salinity": 34.9727,
+    "sea_water_temperature": 6.4122
+  },
+  {
+    "time": "2021-10-24T13:16:00",
+    "depth": 274.475461052514,
+    "Latitude": 48.6372222,
+    "Longitude": -61.14416667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.9299665,
+    "sea_water_density": 1029.1845,
+    "sea_water_practical_salinity": 34.8337,
+    "sea_water_temperature": 7.2625
+  },
+  {
+    "time": "2021-10-24T13:16:00",
+    "depth": 9.9152656050335,
+    "Latitude": 48.6372222,
+    "Longitude": -61.14416667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 256.614958,
+    "sea_water_density": 1022.4516,
+    "sea_water_practical_salinity": 31.0592,
+    "sea_water_temperature": 12.4787
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 399.210773815384,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.84169759107166,
+    "sea_water_density": 1030.7322,
+    "sea_water_practical_salinity": 34.9691,
+    "sea_water_temperature": 6.3656
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 235.856062277941,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.624901,
+    "sea_water_density": 1028.8075,
+    "sea_water_practical_salinity": 34.7668,
+    "sea_water_temperature": 6.9298
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 149.671249694331,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 152.7663487449193,
+    "sea_water_density": 1027.5622,
+    "sea_water_practical_salinity": 33.7807,
+    "sea_water_temperature": 4.8617
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 99.1322700867263,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 232.4869435,
+    "sea_water_density": 1026.8154,
+    "sea_water_practical_salinity": 32.855,
+    "sea_water_temperature": 2.343
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 49.5721395789574,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 301.087441,
+    "sea_water_density": 1025.8478,
+    "sea_water_practical_salinity": 31.9698,
+    "sea_water_temperature": 1.1402
+  },
+  {
+    "time": "2021-10-24T15:13:00",
+    "depth": 9.91538948642803,
+    "Latitude": 48.5008333,
+    "Longitude": -61.31055556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 270.346657,
+    "sea_water_density": 1022.2353,
+    "sea_water_practical_salinity": 30.3717,
+    "sea_water_temperature": 10.8104
+  },
+  {
+    "time": "2021-10-24T17:34:00",
+    "depth": 383.38092313299,
+    "Latitude": 48.3605556,
+    "Longitude": -61.45,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 105.50198462895172,
+    "sea_water_density": 1030.5323,
+    "sea_water_practical_salinity": 34.9551,
+    "sea_water_temperature": 6.509
+  },
+  {
+    "time": "2021-10-24T17:34:00",
+    "depth": 265.569988932805,
+    "Latitude": 48.3605556,
+    "Longitude": -61.45,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 80.3774275,
+    "sea_water_density": 1029.1205,
+    "sea_water_practical_salinity": 34.7726,
+    "sea_water_temperature": 6.8878
+  },
+  {
+    "time": "2021-10-24T17:34:00",
+    "depth": 9.91551697607066,
+    "Latitude": 48.3605556,
+    "Longitude": -61.45,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 272.1572335,
+    "sea_water_density": 1022.1272,
+    "sea_water_practical_salinity": 30.2215,
+    "sea_water_temperature": 10.7501
+  },
+  {
+    "time": "2021-10-24T19:53:00",
+    "depth": 273.496125831341,
+    "Latitude": 48.2027778,
+    "Longitude": -61.60222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.1788475,
+    "sea_water_density": 1029.0081,
+    "sea_water_practical_salinity": 34.279,
+    "sea_water_temperature": 5.8756
+  },
+  {
+    "time": "2021-10-24T19:53:00",
+    "depth": 150.666202792132,
+    "Latitude": 48.2027778,
+    "Longitude": -61.60222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 152.1993825450549,
+    "sea_water_density": 1027.5296,
+    "sea_water_practical_salinity": 33.4583,
+    "sea_water_temperature": 3.785
+  },
+  {
+    "time": "2021-10-24T19:53:00",
+    "depth": 63.4519198649318,
+    "Latitude": 48.2027778,
+    "Longitude": -61.60222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 289.627135,
+    "sea_water_density": 1026.0489,
+    "sea_water_practical_salinity": 32.0763,
+    "sea_water_temperature": 1.2609
+  },
+  {
+    "time": "2021-10-24T19:53:00",
+    "depth": 9.91566045886554,
+    "Latitude": 48.2027778,
+    "Longitude": -61.60222222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 272.877457,
+    "sea_water_density": 1022.0987,
+    "sea_water_practical_salinity": 30.2098,
+    "sea_water_temperature": 10.8456
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 374.476567495209,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 120.89237199999998,
+    "sea_water_density": 1030.4622,
+    "sea_water_practical_salinity": 34.9847,
+    "sea_water_temperature": 6.5279
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 277.45563128638,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 105.00352735681784,
+    "sea_water_density": 1029.2049,
+    "sea_water_practical_salinity": 34.8545,
+    "sea_water_temperature": 7.3936
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 200.202141097205,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 156.18226899999996,
+    "sea_water_density": 1028.094,
+    "sea_water_practical_salinity": 34.367,
+    "sea_water_temperature": 7.098
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 149.67451613384,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 204.4952866647496,
+    "sea_water_density": 1027.4412,
+    "sea_water_practical_salinity": 33.3273,
+    "sea_water_temperature": 3.6534
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 59.4864240653018,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 294.1309045,
+    "sea_water_density": 1025.9594,
+    "sea_water_practical_salinity": 32.0841,
+    "sea_water_temperature": 1.5395
+  },
+  {
+    "time": "2021-10-25T12:04:00",
+    "depth": 9.91560588422268,
+    "Latitude": 48.2627778,
+    "Longitude": -59.97555556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 257.701093,
+    "sea_water_density": 1022.8563,
+    "sea_water_practical_salinity": 31.4821,
+    "sea_water_temperature": 12.1467
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 458.6248539157,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 132.6194665,
+    "sea_water_density": 1031.3879,
+    "sea_water_practical_salinity": 34.9883,
+    "sea_water_temperature": 6.1638
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 260.640405834237,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 112.188529,
+    "sea_water_density": 1029.0242,
+    "sea_water_practical_salinity": 34.9013,
+    "sea_water_temperature": 7.6341
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 200.217195401928,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 125.448426014195,
+    "sea_water_density": 1028.1889,
+    "sea_water_practical_salinity": 34.5385,
+    "sea_water_temperature": 7.3093
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 100.133064515466,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 239.268433,
+    "sea_water_density": 1026.8034,
+    "sea_water_practical_salinity": 32.7575,
+    "sea_water_temperature": 2.0631
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 50.5683656261003,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 290.3072875,
+    "sea_water_density": 1025.5564,
+    "sea_water_practical_salinity": 32.2924,
+    "sea_water_temperature": 3.9376
+  },
+  {
+    "time": "2021-10-26T00:08:00",
+    "depth": 9.91635150933194,
+    "Latitude": 47.4441667,
+    "Longitude": -59.55388889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 261.59325249999995,
+    "sea_water_density": 1023.0629,
+    "sea_water_practical_salinity": 31.6019,
+    "sea_water_temperature": 11.5929
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 453.684830426085,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 114.381889,
+    "sea_water_density": 1031.3028,
+    "sea_water_practical_salinity": 34.9763,
+    "sea_water_temperature": 6.291
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 257.673316850272,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 77.13062199999999,
+    "sea_water_density": 1029.0299,
+    "sea_water_practical_salinity": 34.7429,
+    "sea_water_temperature": 6.8221
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 201.211107256579,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 105.382786,
+    "sea_water_density": 1028.2329,
+    "sea_water_practical_salinity": 34.3337,
+    "sea_water_temperature": 6.3204
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 101.125856480364,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 277.5077665,
+    "sea_water_density": 1026.7963,
+    "sea_water_practical_salinity": 32.7191,
+    "sea_water_temperature": 1.9947
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 61.4746142496314,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 292.714711,
+    "sea_water_density": 1025.9889,
+    "sea_water_practical_salinity": 32.2704,
+    "sea_water_temperature": 2.237
+  },
+  {
+    "time": "2021-10-26T02:13:00",
+    "depth": 9.9165104059575,
+    "Latitude": 47.27,
+    "Longitude": -59.79138889,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 262.4895775,
+    "sea_water_density": 1022.6326,
+    "sea_water_practical_salinity": 31.0423,
+    "sea_water_temperature": 11.5061
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 508.076946809138,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 139.61185194346686,
+    "sea_water_density": 1031.8965,
+    "sea_water_practical_salinity": 34.9918,
+    "sea_water_temperature": 6.1346
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 375.483997784303,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 122.2284235,
+    "sea_water_density": 1030.4846,
+    "sea_water_practical_salinity": 34.9809,
+    "sea_water_temperature": 6.4504
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 274.497788337241,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 112.509097,
+    "sea_water_density": 1029.162,
+    "sea_water_practical_salinity": 34.9171,
+    "sea_water_temperature": 7.7082
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 125.898421134029,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 275.1541225,
+    "sea_water_density": 1027.2782,
+    "sea_water_practical_salinity": 32.9297,
+    "sea_water_temperature": 1.6777
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 49.5755527461809,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 294.2996245,
+    "sea_water_density": 1025.5096,
+    "sea_water_practical_salinity": 32.2674,
+    "sea_water_temperature": 4.0216
+  },
+  {
+    "time": "2021-10-26T22:33:00",
+    "depth": 9.91607218911949,
+    "Latitude": 47.7505556,
+    "Longitude": -60.00944444,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 260.938408,
+    "sea_water_density": 1022.9509,
+    "sea_water_practical_salinity": 31.5171,
+    "sea_water_temperature": 11.8137
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 412.079444272935,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 115.101058,
+    "sea_water_density": 1030.893,
+    "sea_water_practical_salinity": 34.9788,
+    "sea_water_temperature": 6.2502
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 275.47166938298,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 89.063344,
+    "sea_water_density": 1029.212,
+    "sea_water_practical_salinity": 34.813,
+    "sea_water_temperature": 7.0922
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 241.800743083437,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.0130955,
+    "sea_water_density": 1028.738,
+    "sea_water_practical_salinity": 34.7701,
+    "sea_water_temperature": 7.5902
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 155.617630757907,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 185.2688977838743,
+    "sea_water_density": 1027.5383,
+    "sea_water_practical_salinity": 33.5843,
+    "sea_water_temperature": 4.4956
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 98.1420920183972,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 276.827614,
+    "sea_water_density": 1026.5745,
+    "sea_water_practical_salinity": 32.5573,
+    "sea_water_temperature": 2.3069
+  },
+  {
+    "time": "2021-10-27T03:50:00",
+    "depth": 9.91548111989678,
+    "Latitude": 48.4,
+    "Longitude": -60.73916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 261.353881,
+    "sea_water_density": 1022.8265,
+    "sea_water_practical_salinity": 31.3384,
+    "sea_water_temperature": 11.721
+  },
+  {
+    "time": "2021-10-27T06:48:00",
+    "depth": 341.802823429437,
+    "Latitude": 48.5352778,
+    "Longitude": -60.26027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 113.209285,
+    "sea_water_density": 1030.1155,
+    "sea_water_practical_salinity": 34.972,
+    "sea_water_temperature": 6.5604
+  },
+  {
+    "time": "2021-10-27T06:48:00",
+    "depth": 270.517055000711,
+    "Latitude": 48.5352778,
+    "Longitude": -60.26027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.4512235,
+    "sea_water_density": 1029.1391,
+    "sea_water_practical_salinity": 34.8302,
+    "sea_water_temperature": 7.2754
+  },
+  {
+    "time": "2021-10-27T06:48:00",
+    "depth": 120.934545904491,
+    "Latitude": 48.5352778,
+    "Longitude": -60.26027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 284.6636035,
+    "sea_water_density": 1027.1891,
+    "sea_water_practical_salinity": 32.8167,
+    "sea_water_temperature": 1.4211
+  },
+  {
+    "time": "2021-10-27T06:48:00",
+    "depth": 9.91535819365546,
+    "Latitude": 48.5352778,
+    "Longitude": -60.26027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 259.599193,
+    "sea_water_density": 1022.9721,
+    "sea_water_practical_salinity": 31.5049,
+    "sea_water_temperature": 11.6593
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 256.640080756579,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 71.373052,
+    "sea_water_density": 1028.9776,
+    "sea_water_practical_salinity": 34.7785,
+    "sea_water_temperature": 7.176
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 201.177552814108,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 97.341169,
+    "sea_water_density": 1028.2544,
+    "sea_water_practical_salinity": 34.4303,
+    "sea_water_temperature": 6.599
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 152.635540335649,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 142.9282585,
+    "sea_water_density": 1027.6097,
+    "sea_water_practical_salinity": 33.9062,
+    "sea_water_temperature": 5.2762
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 103.091022287302,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 229.81727363698712,
+    "sea_water_density": 1026.8758,
+    "sea_water_practical_salinity": 32.9418,
+    "sea_water_temperature": 2.5884
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 70.3850736681978,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 263.1581305,
+    "sea_water_density": 1026.3931,
+    "sea_water_practical_salinity": 32.5303,
+    "sea_water_temperature": 1.7056
+  },
+  {
+    "time": "2021-10-27T10:31:00",
+    "depth": 9.91485666958515,
+    "Latitude": 49.0880556,
+    "Longitude": -60.17083333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 270.827509,
+    "sea_water_density": 1022.5541,
+    "sea_water_practical_salinity": 30.6406,
+    "sea_water_temperature": 10.292
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 239.801515454247,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 93.8855725,
+    "sea_water_density": 1028.7023,
+    "sea_water_practical_salinity": 34.5829,
+    "sea_water_temperature": 6.9203
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 201.174775815966,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 121.4797285,
+    "sea_water_density": 1028.1817,
+    "sea_water_practical_salinity": 34.228,
+    "sea_water_temperature": 6.1533
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 151.642674084109,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 208.08265,
+    "sea_water_density": 1027.4521,
+    "sea_water_practical_salinity": 33.3736,
+    "sea_water_temperature": 3.8841
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 81.2865150536299,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 289.11675699999995,
+    "sea_water_density": 1026.3428,
+    "sea_water_practical_salinity": 32.3131,
+    "sea_water_temperature": 1.6383
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 50.560044797961,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 298.8044485,
+    "sea_water_density": 1025.5901,
+    "sea_water_practical_salinity": 32.0239,
+    "sea_water_temperature": 2.695
+  },
+  {
+    "time": "2021-10-27T13:37:00",
+    "depth": 9.9147198047626,
+    "Latitude": 49.2391667,
+    "Longitude": -59.55027778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 262.6224445,
+    "sea_water_density": 1022.424,
+    "sea_water_practical_salinity": 30.8078,
+    "sea_water_temperature": 11.611
+  },
+  {
+    "time": "2021-10-27T17:19:00",
+    "depth": 124.887576394154,
+    "Latitude": 49.4836111,
+    "Longitude": -58.76916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 260.029429,
+    "sea_water_density": 1026.9691,
+    "sea_water_practical_salinity": 32.6751,
+    "sea_water_temperature": 2.155
+  },
+  {
+    "time": "2021-10-27T17:19:00",
+    "depth": 90.2042270071956,
+    "Latitude": 49.4836111,
+    "Longitude": -58.76916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 289.2527875,
+    "sea_water_density": 1026.394,
+    "sea_water_practical_salinity": 32.3902,
+    "sea_water_temperature": 2.1408
+  },
+  {
+    "time": "2021-10-27T17:19:00",
+    "depth": 61.4621429234355,
+    "Latitude": 49.4836111,
+    "Longitude": -58.76916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 296.9379835,
+    "sea_water_density": 1025.8568,
+    "sea_water_practical_salinity": 32.1058,
+    "sea_water_temperature": 2.2394
+  },
+  {
+    "time": "2021-10-27T17:19:00",
+    "depth": 9.91449863649215,
+    "Latitude": 49.4836111,
+    "Longitude": -58.76916667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 276.0968455,
+    "sea_water_density": 1022.7616,
+    "sea_water_practical_salinity": 30.7356,
+    "sea_water_temperature": 9.6344
+  },
+  {
+    "time": "2021-10-27T19:01:00",
+    "depth": 182.347974545558,
+    "Latitude": 49.6005556,
+    "Longitude": -58.96777778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 148.48652799999996,
+    "sea_water_density": 1027.8928,
+    "sea_water_practical_salinity": 33.8069,
+    "sea_water_temperature": 4.9635
+  },
+  {
+    "time": "2021-10-27T19:01:00",
+    "depth": 89.2122366982351,
+    "Latitude": 49.6005556,
+    "Longitude": -58.96777778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 283.3433695,
+    "sea_water_density": 1026.4709,
+    "sea_water_practical_salinity": 32.4147,
+    "sea_water_temperature": 1.8044
+  },
+  {
+    "time": "2021-10-27T19:01:00",
+    "depth": 9.91439293231839,
+    "Latitude": 49.6005556,
+    "Longitude": -58.96777778,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 263.6874895,
+    "sea_water_density": 1022.5682,
+    "sea_water_practical_salinity": 30.9193,
+    "sea_water_temperature": 11.3363
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 213.051325831902,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 104.5191505,
+    "sea_water_density": 1028.354,
+    "sea_water_practical_salinity": 34.371,
+    "sea_water_temperature": 6.4639
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 151.636001591242,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 164.54550849999998,
+    "sea_water_density": 1027.5473,
+    "sea_water_practical_salinity": 33.6518,
+    "sea_water_temperature": 4.5206
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 101.103147703919,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 254.3572735,
+    "sea_water_density": 1026.8237,
+    "sea_water_practical_salinity": 32.8127,
+    "sea_water_temperature": 2.2322
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 81.2829383033411,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 283.327552,
+    "sea_water_density": 1026.5175,
+    "sea_water_practical_salinity": 32.3893,
+    "sea_water_temperature": 1.0697
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 49.5666103880792,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 302.679736,
+    "sea_water_density": 1025.7603,
+    "sea_water_practical_salinity": 31.9666,
+    "sea_water_temperature": 1.5649
+  },
+  {
+    "time": "2021-10-27T20:31:00",
+    "depth": 9.91428353607635,
+    "Latitude": 49.7216667,
+    "Longitude": -59.22611111,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 259.9123795,
+    "sea_water_density": 1022.4862,
+    "sea_water_practical_salinity": 30.9302,
+    "sea_water_temperature": 11.7898
+  },
+  {
+    "time": "2021-10-27T22:16:00",
+    "depth": 250.68073526489,
+    "Latitude": 49.86,
+    "Longitude": -59.45166667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 57.793201,
+    "sea_water_density": 1028.8496,
+    "sea_water_practical_salinity": 34.6451,
+    "sea_water_temperature": 6.9822
+  },
+  {
+    "time": "2021-10-27T22:16:00",
+    "depth": 88.2191188577912,
+    "Latitude": 49.86,
+    "Longitude": -59.45166667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 283.18414,
+    "sea_water_density": 1026.6193,
+    "sea_water_practical_salinity": 32.405,
+    "sea_water_temperature": 0.9736
+  },
+  {
+    "time": "2021-10-27T22:16:00",
+    "depth": 9.91415867816494,
+    "Latitude": 49.86,
+    "Longitude": -59.45166667,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 268.4622655,
+    "sea_water_density": 1022.6504,
+    "sea_water_practical_salinity": 30.8294,
+    "sea_water_temperature": 10.5655
+  },
+  {
+    "time": "2021-10-27T23:52:00",
+    "depth": 128.845029722533,
+    "Latitude": 49.9936111,
+    "Longitude": -59.68583333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 228.3511945,
+    "sea_water_density": 1027.0586,
+    "sea_water_practical_salinity": 32.8409,
+    "sea_water_temperature": 2.5705
+  },
+  {
+    "time": "2021-10-27T23:52:00",
+    "depth": 98.1278101447153,
+    "Latitude": 49.9936111,
+    "Longitude": -59.68583333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 281.3609095,
+    "sea_water_density": 1026.5407,
+    "sea_water_practical_salinity": 32.3176,
+    "sea_water_temperature": 1.5171
+  },
+  {
+    "time": "2021-10-27T23:52:00",
+    "depth": 9.914038180901,
+    "Latitude": 49.9936111,
+    "Longitude": -59.68583333,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 288.1139275,
+    "sea_water_density": 1023.1968,
+    "sea_water_practical_salinity": 30.8493,
+    "sea_water_temperature": 7.9131
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 277.423841415358,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 67.593724,
+    "sea_water_density": 1029.205,
+    "sea_water_practical_salinity": 34.7908,
+    "sea_water_temperature": 7.1384
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 201.169702296982,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 93.7801225,
+    "sea_water_density": 1028.2342,
+    "sea_water_practical_salinity": 34.3815,
+    "sea_water_temperature": 6.5051
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 148.666618035909,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 136.771033,
+    "sea_water_density": 1027.5657,
+    "sea_water_practical_salinity": 33.8023,
+    "sea_water_temperature": 4.8805
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 101.105046699373,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 265.9209205,
+    "sea_water_density": 1026.775,
+    "sea_water_practical_salinity": 32.5372,
+    "sea_water_temperature": 1.3739
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 87.2308410191932,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 286.421455,
+    "sea_water_density": 1026.6068,
+    "sea_water_practical_salinity": 32.3632,
+    "sea_water_temperature": 0.8186
+  },
+  {
+    "time": "2021-10-28T04:37:00",
+    "depth": 9.91446975552251,
+    "Latitude": 49.5155556,
+    "Longitude": -60.81805556,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 274.97696649999995,
+    "sea_water_density": 1022.6797,
+    "sea_water_practical_salinity": 30.6613,
+    "sea_water_temperature": 9.7465
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 259.596974967305,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 49.7990365,
+    "sea_water_density": 1028.9649,
+    "sea_water_practical_salinity": 34.6615,
+    "sea_water_temperature": 6.9215
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 201.166789169944,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 108.970195,
+    "sea_water_density": 1028.1762,
+    "sea_water_practical_salinity": 34.1493,
+    "sea_water_temperature": 5.8662
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 151.636653830848,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 178.2793165,
+    "sea_water_density": 1027.5051,
+    "sea_water_practical_salinity": 33.4493,
+    "sea_water_temperature": 3.9217
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 81.2832879325196,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 287.452756,
+    "sea_water_density": 1026.4824,
+    "sea_water_practical_salinity": 32.2867,
+    "sea_water_temperature": 0.8347
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 51.5492466598722,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 294.04549000000003,
+    "sea_water_density": 1025.4964,
+    "sea_water_practical_salinity": 31.8602,
+    "sea_water_temperature": 2.5587
+  },
+  {
+    "time": "2021-10-28T08:41:00",
+    "depth": 9.91432618156458,
+    "Latitude": 49.6744444,
+    "Longitude": -61.83972222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 275.7720595,
+    "sea_water_density": 1022.7538,
+    "sea_water_practical_salinity": 30.7357,
+    "sea_water_temperature": 9.6738
+  },
+  {
+    "time": "2021-10-28T18:22:00",
+    "depth": 77.3161220851613,
+    "Latitude": 50.0833333,
+    "Longitude": -64.105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 271.72277949999994,
+    "sea_water_density": 1024.5947,
+    "sea_water_practical_salinity": 31.3522,
+    "sea_water_temperature": 6.3355
+  },
+  {
+    "time": "2021-10-28T18:22:00",
+    "depth": 40.6441698163256,
+    "Latitude": 50.0833333,
+    "Longitude": -64.105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 269.595853,
+    "sea_water_density": 1023.0613,
+    "sea_water_practical_salinity": 30.719,
+    "sea_water_temperature": 9.6194
+  },
+  {
+    "time": "2021-10-28T18:22:00",
+    "depth": 9.91395732049161,
+    "Latitude": 50.0833333,
+    "Longitude": -64.105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 276.334108,
+    "sea_water_density": 1022.5558,
+    "sea_water_practical_salinity": 30.4848,
+    "sea_water_temperature": 9.66
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 262.562782749074,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 53.7259945,
+    "sea_water_density": 1029.0222,
+    "sea_water_practical_salinity": 34.4972,
+    "sea_water_temperature": 6.1277
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 201.163131187547,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 93.7400515,
+    "sea_water_density": 1028.214,
+    "sea_water_practical_salinity": 34.0228,
+    "sea_water_temperature": 5.1714
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 150.643189737527,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 141.4034515,
+    "sea_water_density": 1027.5496,
+    "sea_water_practical_salinity": 33.5052,
+    "sea_water_temperature": 3.8728
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 100.110792971723,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 216.5344675,
+    "sea_water_density": 1026.7922,
+    "sea_water_practical_salinity": 32.7748,
+    "sea_water_temperature": 2.1884
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 75.335455366475,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 256.237447,
+    "sea_water_density": 1026.3423,
+    "sea_water_practical_salinity": 32.3625,
+    "sea_water_temperature": 1.5385
+  },
+  {
+    "time": "2021-10-29T02:36:00",
+    "depth": 9.91414589728457,
+    "Latitude": 49.8741667,
+    "Longitude": -66.25472222,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 288.568417,
+    "sea_water_density": 1022.3694,
+    "sea_water_practical_salinity": 30.1036,
+    "sea_water_temperature": 9.0673
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 320.821732994354,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 35.28842,
+    "sea_water_density": 1029.6864,
+    "sea_water_practical_salinity": 34.6401,
+    "sea_water_temperature": 6.319
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 199.402267459079,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 83.04468399999999,
+    "sea_water_density": 1028.2394,
+    "sea_water_practical_salinity": 34.0608,
+    "sea_water_temperature": 5.106
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 132.685564727564,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 137.690396,
+    "sea_water_density": 1027.3873,
+    "sea_water_practical_salinity": 33.5239,
+    "sea_water_temperature": 3.852
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 100.329953147991,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 200.168312,
+    "sea_water_density": 1026.9083,
+    "sea_water_practical_salinity": 33.0008,
+    "sea_water_temperature": 2.522
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 60.9314564678523,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 329.436324,
+    "sea_water_density": 1026.2198,
+    "sea_water_practical_salinity": 31.9263,
+    "sea_water_temperature": -0.321
+  },
+  {
+    "time": "2022-06-11T17:14:00",
+    "depth": 5.35428876142337,
+    "Latitude": 48.6666,
+    "Longitude": -68.5834,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 320.656344,
+    "sea_water_density": 1015.8841,
+    "sea_water_practical_salinity": 22.3326,
+    "sea_water_temperature": 10.18
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 294.984853745649,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 36.17696,
+    "sea_water_density": 1029.4177,
+    "sea_water_practical_salinity": 34.6126,
+    "sea_water_temperature": 6.248
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 200.269755744484,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.75667999999999,
+    "sea_water_density": 1028.2886,
+    "sea_water_practical_salinity": 34.1472,
+    "sea_water_temperature": 5.25
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 151.023215902877,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 128.209624,
+    "sea_water_density": 1027.5975,
+    "sea_water_practical_salinity": 33.6377,
+    "sea_water_temperature": 4.182
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 100.575597720346,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 265.25160800000003,
+    "sea_water_density": 1026.8032,
+    "sea_water_practical_salinity": 32.4908,
+    "sea_water_temperature": 1.02
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 75.5404046472997,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 323.704488,
+    "sea_water_density": 1026.37,
+    "sea_water_practical_salinity": 32.0262,
+    "sea_water_temperature": 0.065
+  },
+  {
+    "time": "2022-06-12T20:59:00",
+    "depth": 5.46324095045073,
+    "Latitude": 48.897,
+    "Longitude": -67.9239,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 316.593156,
+    "sea_water_density": 1016.1387,
+    "sea_water_practical_salinity": 22.3988,
+    "sea_water_temperature": 9.177
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 307.434489702638,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 49.517108,
+    "sea_water_density": 1029.5764,
+    "sea_water_practical_salinity": 34.723,
+    "sea_water_temperature": 6.525
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 265.859197579856,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 59.316148,
+    "sea_water_density": 1029.1072,
+    "sea_water_practical_salinity": 34.6376,
+    "sea_water_temperature": 6.43
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 200.999198482071,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 74.457472,
+    "sea_water_density": 1028.2898,
+    "sea_water_practical_salinity": 34.156,
+    "sea_water_temperature": 5.316
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 150.356712121775,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 151.017492,
+    "sea_water_density": 1027.5247,
+    "sea_water_practical_salinity": 33.4336,
+    "sea_water_temperature": 3.696
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 80.1775614658623,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 324.476564,
+    "sea_water_density": 1026.3207,
+    "sea_water_practical_salinity": 31.9511,
+    "sea_water_temperature": 0.245
+  },
+  {
+    "time": "2022-06-12T00:47:00",
+    "depth": 5.0368058465949,
+    "Latitude": 49.0912,
+    "Longitude": -67.2697,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 324.963504,
+    "sea_water_density": 1017.2937,
+    "sea_water_practical_salinity": 24.0084,
+    "sea_water_temperature": 9.819
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 295.894492604875,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 48.192832,
+    "sea_water_density": 1029.4864,
+    "sea_water_practical_salinity": 34.7614,
+    "sea_water_temperature": 6.546
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 250.633896643789,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 50.20786,
+    "sea_water_density": 1028.9926,
+    "sea_water_practical_salinity": 34.7,
+    "sea_water_temperature": 6.484
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 150.631127417094,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 103.563432,
+    "sea_water_density": 1027.6858,
+    "sea_water_practical_salinity": 33.9285,
+    "sea_water_temperature": 4.884
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 50.48042055889,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 325.58498,
+    "sea_water_density": 1026.0009,
+    "sea_water_practical_salinity": 31.9734,
+    "sea_water_temperature": 0.435
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 11.7389004820297,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 317.198568,
+    "sea_water_density": 1022.7122,
+    "sea_water_practical_salinity": 30.1467,
+    "sea_water_temperature": 7.618
+  },
+  {
+    "time": "2022-06-13T04:25:00",
+    "depth": 5.72081528585148,
+    "Latitude": 49.3095,
+    "Longitude": -66.7105,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 306.58930000000004,
+    "sea_water_density": 1021.9058,
+    "sea_water_practical_salinity": 29.7589,
+    "sea_water_temperature": 9.795
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 315.42406774892,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.946564,
+    "sea_water_density": 1029.7632,
+    "sea_water_practical_salinity": 34.889,
+    "sea_water_temperature": 6.659
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 248.066413564209,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 63.271908,
+    "sea_water_density": 1028.9641,
+    "sea_water_practical_salinity": 34.7227,
+    "sea_water_temperature": 6.588
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 200.458171014474,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 80.648136,
+    "sea_water_density": 1028.3238,
+    "sea_water_practical_salinity": 34.4248,
+    "sea_water_temperature": 6.194
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 100.322984953982,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 197.648272,
+    "sea_water_density": 1026.9158,
+    "sea_water_practical_salinity": 33.0909,
+    "sea_water_temperature": 2.845
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 50.1131245697682,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 312.710688,
+    "sea_water_density": 1026.1476,
+    "sea_water_practical_salinity": 32.1176,
+    "sea_water_temperature": 0.26
+  },
+  {
+    "time": "2022-06-13T07:00:00",
+    "depth": 5.18536979006055,
+    "Latitude": 49.4265,
+    "Longitude": -66.3184,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 332.107968,
+    "sea_water_density": 1022.3822,
+    "sea_water_practical_salinity": 29.7174,
+    "sea_water_temperature": 7.22
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 347.137675454379,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 80.355972,
+    "sea_water_density": 1030.0684,
+    "sea_water_practical_salinity": 34.898,
+    "sea_water_temperature": 6.771
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 279.05813046689,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 61.200656,
+    "sea_water_density": 1029.3235,
+    "sea_water_practical_salinity": 34.7897,
+    "sea_water_temperature": 6.624
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 252.521097089818,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 61.606272,
+    "sea_water_density": 1029.0145,
+    "sea_water_practical_salinity": 34.7245,
+    "sea_water_temperature": 6.568
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 220.12740658498,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 64.11627200000001,
+    "sea_water_density": 1028.6149,
+    "sea_water_practical_salinity": 34.5836,
+    "sea_water_temperature": 6.367
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 12.3236389603311,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 316.351192,
+    "sea_water_density": 1022.4437,
+    "sea_water_practical_salinity": 30.0,
+    "sea_water_temperature": 8.403
+  },
+  {
+    "time": "2022-06-13T12:18:00",
+    "depth": 5.94875196479467,
+    "Latitude": 49.4927,
+    "Longitude": -65.208,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 112.08438,
+    "sea_water_density": 1021.5338,
+    "sea_water_practical_salinity": 29.2433,
+    "sea_water_temperature": 9.604
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 281.532092988318,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 71.82900000000001,
+    "sea_water_density": 1029.2993,
+    "sea_water_practical_salinity": 34.7503,
+    "sea_water_temperature": 6.712
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 275.076492270701,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 72.55188,
+    "sea_water_density": 1029.2294,
+    "sea_water_practical_salinity": 34.7464,
+    "sea_water_temperature": 6.72
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 246.172320210877,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 79.91521599999999,
+    "sea_water_density": 1028.8275,
+    "sea_water_practical_salinity": 34.5731,
+    "sea_water_temperature": 6.577
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 65.158833460786,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 333.804728,
+    "sea_water_density": 1026.1848,
+    "sea_water_practical_salinity": 31.9414,
+    "sea_water_temperature": 0.128
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 14.7128614499261,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 318.26582,
+    "sea_water_density": 1022.6998,
+    "sea_water_practical_salinity": 30.1552,
+    "sea_water_temperature": 7.864
+  },
+  {
+    "time": "2022-06-13T19:31:00",
+    "depth": 5.7405214044119,
+    "Latitude": 49.5446,
+    "Longitude": -64.4932,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 317.2317,
+    "sea_water_density": 1021.0106,
+    "sea_water_practical_salinity": 28.1611,
+    "sea_water_temperature": 7.881
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 314.443101030874,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 77.85802,
+    "sea_water_density": 1029.6827,
+    "sea_water_practical_salinity": 34.837,
+    "sea_water_temperature": 6.804
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 305.147198734584,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.25455199999999,
+    "sea_water_density": 1029.5303,
+    "sea_water_practical_salinity": 34.7781,
+    "sea_water_temperature": 6.861
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 290.375848312603,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.248448,
+    "sea_water_density": 1029.3,
+    "sea_water_practical_salinity": 34.6655,
+    "sea_water_temperature": 6.816
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 180.745573486477,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 147.115948,
+    "sea_water_density": 1027.8678,
+    "sea_water_practical_salinity": 33.6687,
+    "sea_water_temperature": 4.455
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 79.9865683299604,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 332.519608,
+    "sea_water_density": 1026.4285,
+    "sea_water_practical_salinity": 32.0065,
+    "sea_water_temperature": -0.082
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 9.89469305101478,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 327.853016,
+    "sea_water_density": 1022.7885,
+    "sea_water_practical_salinity": 29.8274,
+    "sea_water_temperature": 5.866
+  },
+  {
+    "time": "2022-06-13T02:40:00",
+    "depth": 5.24484185062681,
+    "Latitude": 49.4582,
+    "Longitude": -64.2419,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 323.19044,
+    "sea_water_density": 1021.5629,
+    "sea_water_practical_salinity": 29.1612,
+    "sea_water_temperature": 9.095
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 345.324957192512,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 85.13300399999999,
+    "sea_water_density": 1030.0311,
+    "sea_water_practical_salinity": 34.8889,
+    "sea_water_temperature": 6.829
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 336.485591812503,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 84.948268,
+    "sea_water_density": 1029.9432,
+    "sea_water_practical_salinity": 34.8896,
+    "sea_water_temperature": 6.825
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 326.240163455135,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 84.011536,
+    "sea_water_density": 1029.8342,
+    "sea_water_practical_salinity": 34.8807,
+    "sea_water_temperature": 6.817
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 316.657503866774,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 92.946132,
+    "sea_water_density": 1029.6701,
+    "sea_water_practical_salinity": 34.8461,
+    "sea_water_temperature": 7.015
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 307.321900933077,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 68.51579999999998,
+    "sea_water_density": 1029.5603,
+    "sea_water_practical_salinity": 34.7398,
+    "sea_water_temperature": 6.667
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 296.896808374223,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 96.606716,
+    "sea_water_density": 1029.3998,
+    "sea_water_practical_salinity": 34.7923,
+    "sea_water_temperature": 7.153
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 286.748418443969,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.0203,
+    "sea_water_density": 1029.2773,
+    "sea_water_practical_salinity": 34.786,
+    "sea_water_temperature": 7.228
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 276.510412960722,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.25726,
+    "sea_water_density": 1029.1581,
+    "sea_water_practical_salinity": 34.7577,
+    "sea_water_temperature": 7.194
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 75.7760287734246,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 317.611212,
+    "sea_water_density": 1026.3118,
+    "sea_water_practical_salinity": 31.9868,
+    "sea_water_temperature": 0.21
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 17.4694400433112,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 333.705332,
+    "sea_water_density": 1023.8408,
+    "sea_water_practical_salinity": 30.3918,
+    "sea_water_temperature": 3.244
+  },
+  {
+    "time": "2022-06-14T12:13:00",
+    "depth": 5.44324900007838,
+    "Latitude": 49.2225,
+    "Longitude": -64.2837,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 319.176448,
+    "sea_water_density": 1020.993,
+    "sea_water_practical_salinity": 28.7044,
+    "sea_water_temperature": 10.127
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 343.078311291028,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.62493199999999,
+    "sea_water_density": 1030.0341,
+    "sea_water_practical_salinity": 34.9148,
+    "sea_water_temperature": 6.804
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 320.934378702384,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.698224,
+    "sea_water_density": 1029.8096,
+    "sea_water_practical_salinity": 34.9135,
+    "sea_water_temperature": 6.803
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 310.93566635786,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.166104,
+    "sea_water_density": 1029.6712,
+    "sea_water_practical_salinity": 34.8767,
+    "sea_water_temperature": 6.843
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 300.669155819498,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 78.251588,
+    "sea_water_density": 1029.4952,
+    "sea_water_practical_salinity": 34.7704,
+    "sea_water_temperature": 6.779
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 290.936782889118,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 75.214488,
+    "sea_water_density": 1029.3882,
+    "sea_water_practical_salinity": 34.7445,
+    "sea_water_temperature": 6.719
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 280.679174897675,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 70.065976,
+    "sea_water_density": 1029.2466,
+    "sea_water_practical_salinity": 34.6685,
+    "sea_water_temperature": 6.605
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 176.509696642117,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 156.874828,
+    "sea_water_density": 1027.8122,
+    "sea_water_practical_salinity": 33.6828,
+    "sea_water_temperature": 4.575
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 111.800534392006,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 201.940372,
+    "sea_water_density": 1027.0329,
+    "sea_water_practical_salinity": 33.077,
+    "sea_water_temperature": 2.783
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 90.7614433488264,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 234.571376,
+    "sea_water_density": 1026.7778,
+    "sea_water_practical_salinity": 32.801,
+    "sea_water_temperature": 1.893
+  },
+  {
+    "time": "2022-06-14T18:23:00",
+    "depth": 71.0483406330782,
+    "Latitude": 49.2136,
+    "Longitude": -63.8442,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 292.91984,
+    "sea_water_density": 1026.4627,
+    "sea_water_practical_salinity": 32.3063,
+    "sea_water_temperature": 0.495
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 370.961334889457,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.948236,
+    "sea_water_density": 1030.3348,
+    "sea_water_practical_salinity": 34.9275,
+    "sea_water_temperature": 6.76
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 321.18281291221,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.415096,
+    "sea_water_density": 1029.8271,
+    "sea_water_practical_salinity": 34.9235,
+    "sea_water_temperature": 6.768
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 310.500983823004,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.103856,
+    "sea_water_density": 1029.6658,
+    "sea_water_practical_salinity": 34.8787,
+    "sea_water_temperature": 6.856
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 300.818549941294,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 85.885,
+    "sea_water_density": 1029.5148,
+    "sea_water_practical_salinity": 34.8263,
+    "sea_water_temperature": 6.912
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 290.670315389385,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.173148,
+    "sea_water_density": 1029.3648,
+    "sea_water_practical_salinity": 34.7759,
+    "sea_water_temperature": 6.948
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 280.432466705662,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.97434,
+    "sea_water_density": 1029.2474,
+    "sea_water_practical_salinity": 34.7629,
+    "sea_water_temperature": 6.966
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 60.8294677203183,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 297.423784,
+    "sea_water_density": 1026.2215,
+    "sea_water_practical_salinity": 32.1726,
+    "sea_water_temperature": 0.651
+  },
+  {
+    "time": "2022-06-14T19:43:00",
+    "depth": 5.49284321979681,
+    "Latitude": 49.1813,
+    "Longitude": -63.9169,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 316.00180000000006,
+    "sea_water_density": 1022.0067,
+    "sea_water_practical_salinity": 29.7576,
+    "sea_water_temperature": 9.274
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 277.80088627013,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 77.22650399999999,
+    "sea_water_density": 1029.2435,
+    "sea_water_practical_salinity": 34.7513,
+    "sea_water_temperature": 6.806
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 267.562314354886,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 76.870084,
+    "sea_water_density": 1029.1398,
+    "sea_water_practical_salinity": 34.7489,
+    "sea_water_temperature": 6.798
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 257.313329538378,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 85.624964,
+    "sea_water_density": 1028.9897,
+    "sea_water_practical_salinity": 34.7186,
+    "sea_water_temperature": 6.91
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 159.967029039576,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 102.241164,
+    "sea_water_density": 1027.7719,
+    "sea_water_practical_salinity": 33.9306,
+    "sea_water_temperature": 4.933
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 139.824404210547,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 135.973556,
+    "sea_water_density": 1027.4779,
+    "sea_water_practical_salinity": 33.6955,
+    "sea_water_temperature": 4.446
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 120.254537662652,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 191.421464,
+    "sea_water_density": 1027.1252,
+    "sea_water_practical_salinity": 33.1357,
+    "sea_water_temperature": 2.983
+  },
+  {
+    "time": "2022-06-14T22:39:00",
+    "depth": 89.553329317365,
+    "Latitude": 49.0937,
+    "Longitude": -64.0615,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 288.52734000000004,
+    "sea_water_density": 1026.6025,
+    "sea_water_practical_salinity": 32.2646,
+    "sea_water_temperature": 0.563
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 378.228544161695,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 90.354808,
+    "sea_water_density": 1030.4208,
+    "sea_water_practical_salinity": 34.9413,
+    "sea_water_temperature": 6.752
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 282.632720929015,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 89.405024,
+    "sea_water_density": 1029.3593,
+    "sea_water_practical_salinity": 34.8602,
+    "sea_water_temperature": 6.907
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 272.127042153601,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.98344,
+    "sea_water_density": 1029.2052,
+    "sea_water_practical_salinity": 34.793,
+    "sea_water_temperature": 6.878
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 262.264483533306,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.147252,
+    "sea_water_density": 1029.0886,
+    "sea_water_practical_salinity": 34.7298,
+    "sea_water_temperature": 6.71
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 40.2909462884581,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 329.86503200000004,
+    "sea_water_density": 1025.865,
+    "sea_water_practical_salinity": 31.8447,
+    "sea_water_temperature": 0.086
+  },
+  {
+    "time": "2022-06-14T01:38:00",
+    "depth": 5.40365146017929,
+    "Latitude": 49.0983,
+    "Longitude": -63.6767,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 363.904648,
+    "sea_water_density": 1020.3363,
+    "sea_water_practical_salinity": 27.9877,
+    "sea_water_temperature": 10.542
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 360.51547020733,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 88.764472,
+    "sea_water_density": 1030.2436,
+    "sea_water_practical_salinity": 34.9393,
+    "sea_water_temperature": 6.735
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 260.553529798235,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 79.29775599999999,
+    "sea_water_density": 1029.1096,
+    "sea_water_practical_salinity": 34.8011,
+    "sea_water_temperature": 6.804
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 250.482369220974,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.598908,
+    "sea_water_density": 1028.9822,
+    "sea_water_practical_salinity": 34.7883,
+    "sea_water_temperature": 6.881
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 240.697917271437,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 84.943248,
+    "sea_water_density": 1028.8582,
+    "sea_water_practical_salinity": 34.7618,
+    "sea_water_temperature": 6.901
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 120.681589805054,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 109.195872,
+    "sea_water_density": 1027.3564,
+    "sea_water_practical_salinity": 33.8961,
+    "sea_water_temperature": 4.89
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 90.2874374879937,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 151.7725,
+    "sea_water_density": 1026.9431,
+    "sea_water_practical_salinity": 33.6209,
+    "sea_water_temperature": 4.322
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 30.0308451769555,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 259.73964800000005,
+    "sea_water_density": 1026.0376,
+    "sea_water_practical_salinity": 32.3249,
+    "sea_water_temperature": 0.626
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 25.2722070831573,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 284.850692,
+    "sea_water_density": 1025.9204,
+    "sea_water_practical_salinity": 32.1301,
+    "sea_water_temperature": 0.193
+  },
+  {
+    "time": "2022-06-15T05:41:00",
+    "depth": 5.50284551362422,
+    "Latitude": 49.0072,
+    "Longitude": -63.5441,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 310.637428,
+    "sea_water_density": 1022.3231,
+    "sea_water_practical_salinity": 30.3227,
+    "sea_water_temperature": 9.953
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 336.425456596967,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 90.371876,
+    "sea_water_density": 1029.9904,
+    "sea_water_practical_salinity": 34.9352,
+    "sea_water_temperature": 6.768
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 267.903126279493,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 78.16725199999999,
+    "sea_water_density": 1029.1942,
+    "sea_water_practical_salinity": 34.8109,
+    "sea_water_temperature": 6.791
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 256.495370857866,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.16532399999998,
+    "sea_water_density": 1029.0581,
+    "sea_water_practical_salinity": 34.7685,
+    "sea_water_temperature": 6.726
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 247.176586624506,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 74.553856,
+    "sea_water_density": 1028.9432,
+    "sea_water_practical_salinity": 34.7455,
+    "sea_water_temperature": 6.738
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 30.3879678085838,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 305.420644,
+    "sea_water_density": 1025.8972,
+    "sea_water_practical_salinity": 31.9839,
+    "sea_water_temperature": -0.018
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 13.8412136852641,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 345.49932,
+    "sea_water_density": 1023.7204,
+    "sea_water_practical_salinity": 30.7813,
+    "sea_water_temperature": 5.221
+  },
+  {
+    "time": "2022-06-15T12:09:00",
+    "depth": 5.23518243711951,
+    "Latitude": 48.9247,
+    "Longitude": -63.3319,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 305.829272,
+    "sea_water_density": 1021.9322,
+    "sea_water_practical_salinity": 29.9115,
+    "sea_water_temperature": 10.249
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 376.678086882916,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 91.217244,
+    "sea_water_density": 1030.4237,
+    "sea_water_practical_salinity": 34.9498,
+    "sea_water_temperature": 6.693
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 268.049790459562,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.103204,
+    "sea_water_density": 1029.1828,
+    "sea_water_practical_salinity": 34.7587,
+    "sea_water_temperature": 6.647
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 258.276072463886,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 66.10820799999999,
+    "sea_water_density": 1029.0751,
+    "sea_water_practical_salinity": 34.7507,
+    "sea_water_temperature": 6.66
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 247.769054515053,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 76.59699599999999,
+    "sea_water_density": 1028.9407,
+    "sea_water_practical_salinity": 34.7396,
+    "sea_water_temperature": 6.757
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 237.499187629593,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.73346,
+    "sea_water_density": 1028.8167,
+    "sea_water_practical_salinity": 34.7368,
+    "sea_water_temperature": 6.847
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 227.654686478424,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 69.949512,
+    "sea_water_density": 1028.6978,
+    "sea_water_practical_salinity": 34.6499,
+    "sea_water_temperature": 6.597
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 207.587873123894,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 67.497744,
+    "sea_water_density": 1028.4401,
+    "sea_water_practical_salinity": 34.4867,
+    "sea_water_temperature": 6.22
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 40.687833121516,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 320.888268,
+    "sea_water_density": 1025.9607,
+    "sea_water_practical_salinity": 31.9264,
+    "sea_water_temperature": -0.046
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 11.5111952423893,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 341.49737600000003,
+    "sea_water_density": 1023.6111,
+    "sea_water_practical_salinity": 30.7807,
+    "sea_water_temperature": 5.648
+  },
+  {
+    "time": "2022-06-15T14:03:00",
+    "depth": 5.39378460349509,
+    "Latitude": 49.001,
+    "Longitude": -63.1202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 332.893096,
+    "sea_water_density": 1022.3864,
+    "sea_water_practical_salinity": 30.1313,
+    "sea_water_temperature": 8.865
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 184.159915657289,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 140.650188,
+    "sea_water_density": 1027.9496,
+    "sea_water_practical_salinity": 34.0317,
+    "sea_water_temperature": 5.67
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 130.708954365499,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 197.19848,
+    "sea_water_density": 1027.2389,
+    "sea_water_practical_salinity": 33.2877,
+    "sea_water_temperature": 3.55
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 115.478575430894,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 220.602724,
+    "sea_water_density": 1027.039,
+    "sea_water_practical_salinity": 32.991,
+    "sea_water_temperature": 2.594
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 100.207422906646,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 242.176676,
+    "sea_water_density": 1026.8313,
+    "sea_water_practical_salinity": 32.7927,
+    "sea_water_temperature": 2.069
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 90.6140594322147,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 260.83601600000003,
+    "sea_water_density": 1026.7015,
+    "sea_water_practical_salinity": 32.6037,
+    "sea_water_temperature": 1.478
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 80.6634430455525,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 276.582752,
+    "sea_water_density": 1026.4859,
+    "sea_water_practical_salinity": 32.4555,
+    "sea_water_temperature": 1.461
+  },
+  {
+    "time": "2022-06-15T16:22:00",
+    "depth": 61.0085631845997,
+    "Latitude": 49.0596,
+    "Longitude": -62.7801,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 305.704776,
+    "sea_water_density": 1026.0481,
+    "sea_water_practical_salinity": 31.9019,
+    "sea_water_temperature": 0.444
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 385.202935086398,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 91.06564,
+    "sea_water_density": 1030.5091,
+    "sea_water_practical_salinity": 34.9504,
+    "sea_water_temperature": 6.699
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 350.215227281097,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 91.139936,
+    "sea_water_density": 1030.1559,
+    "sea_water_practical_salinity": 34.95,
+    "sea_water_temperature": 6.696
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 300.479885309207,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 71.28182,
+    "sea_water_density": 1029.5351,
+    "sea_water_practical_salinity": 34.8092,
+    "sea_water_temperature": 6.725
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 283.786546959393,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.367,
+    "sea_water_density": 1029.3156,
+    "sea_water_practical_salinity": 34.7806,
+    "sea_water_temperature": 6.865
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 273.142103173185,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.974404,
+    "sea_water_density": 1029.1865,
+    "sea_water_practical_salinity": 34.7569,
+    "sea_water_temperature": 6.878
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 263.586388603376,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 83.6009,
+    "sea_water_density": 1029.0766,
+    "sea_water_practical_salinity": 34.7359,
+    "sea_water_temperature": 6.861
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 253.356825405106,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 84.581808,
+    "sea_water_density": 1028.9434,
+    "sea_water_practical_salinity": 34.6933,
+    "sea_water_temperature": 6.84
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 100.377404376935,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 213.25244,
+    "sea_water_density": 1026.867,
+    "sea_water_practical_salinity": 32.9042,
+    "sea_water_temperature": 2.345
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 60.3850024002684,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 318.201564,
+    "sea_water_density": 1026.1531,
+    "sea_water_practical_salinity": 31.9902,
+    "sea_water_temperature": 0.241
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 8.37823295656229,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 338.423128,
+    "sea_water_density": 1022.3916,
+    "sea_water_practical_salinity": 29.2866,
+    "sea_water_temperature": 5.611
+  },
+  {
+    "time": "2022-06-15T17:58:00",
+    "depth": 5.34426163404904,
+    "Latitude": 48.8954,
+    "Longitude": -62.8528,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 355.94594,
+    "sea_water_density": 1020.0269,
+    "sea_water_practical_salinity": 27.4932,
+    "sea_water_temperature": 10.108
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 426.273214065137,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.47798,
+    "sea_water_density": 1031.0129,
+    "sea_water_practical_salinity": 34.9985,
+    "sea_water_temperature": 6.447
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 295.489013416989,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 115.306216,
+    "sea_water_density": 1029.4453,
+    "sea_water_practical_salinity": 34.9184,
+    "sea_water_temperature": 7.358
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 275.091339314784,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 102.829508,
+    "sea_water_density": 1029.1787,
+    "sea_water_practical_salinity": 34.8276,
+    "sea_water_temperature": 7.298
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 254.859995625431,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.765268,
+    "sea_water_density": 1028.9197,
+    "sea_water_practical_salinity": 34.7388,
+    "sea_water_temperature": 7.216
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 70.7453108224014,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 319.918404,
+    "sea_water_density": 1025.9578,
+    "sea_water_practical_salinity": 32.0595,
+    "sea_water_temperature": 2.017
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 35.5739914507518,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 345.90292800000003,
+    "sea_water_density": 1025.288,
+    "sea_water_practical_salinity": 31.6648,
+    "sea_water_temperature": 2.013
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 22.1303677458219,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 327.47049200000004,
+    "sea_water_density": 1024.0971,
+    "sea_water_practical_salinity": 31.2529,
+    "sea_water_temperature": 5.642
+  },
+  {
+    "time": "2022-06-16T03:53:00",
+    "depth": 5.30476435125385,
+    "Latitude": 48.5602,
+    "Longitude": -62.1705,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 302.996988,
+    "sea_water_density": 1022.9065,
+    "sea_water_practical_salinity": 30.9112,
+    "sea_water_temperature": 9.38
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 341.142931049483,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 116.59736,
+    "sea_water_density": 1030.0675,
+    "sea_water_practical_salinity": 34.9799,
+    "sea_water_temperature": 6.799
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 295.365199689481,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 102.86264,
+    "sea_water_density": 1029.4316,
+    "sea_water_practical_salinity": 34.8947,
+    "sea_water_temperature": 7.326
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 285.364814691436,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.1709,
+    "sea_water_density": 1029.3133,
+    "sea_water_practical_salinity": 34.8786,
+    "sea_water_temperature": 7.348
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 276.027382319169,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.679944,
+    "sea_water_density": 1029.2037,
+    "sea_water_practical_salinity": 34.8623,
+    "sea_water_temperature": 7.359
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 265.382389896934,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.51528799999998,
+    "sea_water_density": 1029.0881,
+    "sea_water_practical_salinity": 34.8539,
+    "sea_water_temperature": 7.366
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 256.044049386004,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 102.05944,
+    "sea_water_density": 1028.9787,
+    "sea_water_practical_salinity": 34.8387,
+    "sea_water_temperature": 7.381
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 240.98099571817,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.220128,
+    "sea_water_density": 1028.7888,
+    "sea_water_practical_salinity": 34.7817,
+    "sea_water_temperature": 7.342
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 190.267524207439,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 146.864948,
+    "sea_water_density": 1028.0453,
+    "sea_water_practical_salinity": 34.3794,
+    "sea_water_temperature": 6.89
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 70.7936735456306,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 309.926596,
+    "sea_water_density": 1026.2829,
+    "sea_water_practical_salinity": 32.018,
+    "sea_water_temperature": 0.228
+  },
+  {
+    "time": "2022-06-16T11:28:00",
+    "depth": 5.63187430093853,
+    "Latitude": 48.745,
+    "Longitude": -61.777,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 296.204928,
+    "sea_water_density": 1023.0674,
+    "sea_water_practical_salinity": 31.083,
+    "sea_water_temperature": 9.279
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 366.961415484012,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.259092,
+    "sea_water_density": 1030.427,
+    "sea_water_practical_salinity": 35.001,
+    "sea_water_temperature": 6.39
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 336.078008800217,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 123.621344,
+    "sea_water_density": 1030.0118,
+    "sea_water_practical_salinity": 34.9792,
+    "sea_water_temperature": 6.819
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 313.486632852793,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 109.747068,
+    "sea_water_density": 1029.7398,
+    "sea_water_practical_salinity": 34.9513,
+    "sea_water_temperature": 6.926
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 283.159600169841,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 116.37146,
+    "sea_water_density": 1029.3412,
+    "sea_water_practical_salinity": 34.9349,
+    "sea_water_temperature": 7.322
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 263.355009025234,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 114.440768,
+    "sea_water_density": 1029.0748,
+    "sea_water_practical_salinity": 34.8796,
+    "sea_water_temperature": 7.433
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 244.271479415309,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 106.9188,
+    "sea_water_density": 1028.839,
+    "sea_water_practical_salinity": 34.8167,
+    "sea_water_temperature": 7.397
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 214.66720730336,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 117.573248,
+    "sea_water_density": 1028.4639,
+    "sea_water_practical_salinity": 34.7362,
+    "sea_water_temperature": 7.456
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 175.657132669435,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 141.64414800000003,
+    "sea_water_density": 1027.9477,
+    "sea_water_practical_salinity": 34.5747,
+    "sea_water_temperature": 7.422
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 56.1636396954955,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 324.765716,
+    "sea_water_density": 1025.9882,
+    "sea_water_practical_salinity": 31.9251,
+    "sea_water_temperature": 0.592
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 30.6267107434454,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 333.921192,
+    "sea_water_density": 1024.5698,
+    "sea_water_practical_salinity": 31.3209,
+    "sea_water_temperature": 3.979
+  },
+  {
+    "time": "2022-06-16T19:09:00",
+    "depth": 5.72116822064946,
+    "Latitude": 48.6348,
+    "Longitude": -61.1354,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 311.70468,
+    "sea_water_density": 1022.8615,
+    "sea_water_practical_salinity": 30.7615,
+    "sea_water_temperature": 9.027
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 304.79763710152,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 112.764088,
+    "sea_water_density": 1029.646,
+    "sea_water_practical_salinity": 34.9567,
+    "sea_water_temperature": 6.978
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 285.272141710351,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.417724,
+    "sea_water_density": 1029.3847,
+    "sea_water_practical_salinity": 34.9236,
+    "sea_water_temperature": 7.166
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 274.617488829104,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.883596,
+    "sea_water_density": 1029.2522,
+    "sea_water_practical_salinity": 34.9122,
+    "sea_water_temperature": 7.245
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 254.772220165379,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 113.147616,
+    "sea_water_density": 1028.9871,
+    "sea_water_practical_salinity": 34.8759,
+    "sea_water_temperature": 7.423
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 234.83589563101,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 96.172988,
+    "sea_water_density": 1028.7571,
+    "sea_water_practical_salinity": 34.764,
+    "sea_water_temperature": 7.119
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 224.713483809566,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.237196,
+    "sea_water_density": 1028.6146,
+    "sea_water_practical_salinity": 34.7159,
+    "sea_water_temperature": 7.128
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 204.932731559024,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.790384,
+    "sea_water_density": 1028.3621,
+    "sea_water_practical_salinity": 34.5931,
+    "sea_water_temperature": 6.901
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 150.701699952524,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 125.163488,
+    "sea_water_density": 1027.6575,
+    "sea_water_practical_salinity": 34.1484,
+    "sea_water_temperature": 5.908
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 100.708072804213,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 198.216536,
+    "sea_water_density": 1026.9199,
+    "sea_water_practical_salinity": 33.3748,
+    "sea_water_temperature": 3.979
+  },
+  {
+    "time": "2022-06-16T21:33:00",
+    "depth": 50.7319774292495,
+    "Latitude": 48.5022,
+    "Longitude": -61.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 323.259716,
+    "sea_water_density": 1026.0002,
+    "sea_water_practical_salinity": 31.9016,
+    "sea_water_temperature": 0.164
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 382.47074471556,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 105.153768,
+    "sea_water_density": 1030.541,
+    "sea_water_practical_salinity": 34.9893,
+    "sea_water_temperature": 6.556
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 297.900752079259,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 117.14956,
+    "sea_water_density": 1029.5853,
+    "sea_water_practical_salinity": 34.9622,
+    "sea_water_temperature": 6.955
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 278.344621831649,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 121.816152,
+    "sea_water_density": 1029.3391,
+    "sea_water_practical_salinity": 34.9536,
+    "sea_water_temperature": 7.164
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 257.538816960085,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.082404,
+    "sea_water_density": 1029.0654,
+    "sea_water_practical_salinity": 34.9079,
+    "sea_water_temperature": 7.299
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 237.790663643464,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.050436,
+    "sea_water_density": 1028.8187,
+    "sea_water_practical_salinity": 34.8262,
+    "sea_water_temperature": 7.209
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 217.535444269958,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 88.765476,
+    "sea_water_density": 1028.5651,
+    "sea_water_practical_salinity": 34.6974,
+    "sea_water_temperature": 6.939
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 197.387194312467,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.707276,
+    "sea_water_density": 1028.2868,
+    "sea_water_practical_salinity": 34.5208,
+    "sea_water_temperature": 6.607
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 176.939749831346,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 98.805476,
+    "sea_water_density": 1028.0181,
+    "sea_water_practical_salinity": 34.3734,
+    "sea_water_temperature": 6.329
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 40.6406894473767,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 315.385344,
+    "sea_water_density": 1025.9227,
+    "sea_water_practical_salinity": 31.9635,
+    "sea_water_temperature": 0.29
+  },
+  {
+    "time": "2022-06-16T23:32:00",
+    "depth": 5.21562693982676,
+    "Latitude": 48.35,
+    "Longitude": -61.4445,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 299.78318400000006,
+    "sea_water_density": 1022.4136,
+    "sea_water_practical_salinity": 30.56,
+    "sea_water_temperature": 10.435
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 442.740156898415,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 144.058768,
+    "sea_water_density": 1031.2524,
+    "sea_water_practical_salinity": 35.0044,
+    "sea_water_temperature": 6.104
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 307.80141738575,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.3637,
+    "sea_water_density": 1029.6173,
+    "sea_water_practical_salinity": 34.8969,
+    "sea_water_temperature": 7.033
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 287.483162639231,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.903852,
+    "sea_water_density": 1029.3371,
+    "sea_water_practical_salinity": 34.8439,
+    "sea_water_temperature": 7.196
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 267.64815319047,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 94.10776,
+    "sea_water_density": 1029.0853,
+    "sea_water_practical_salinity": 34.7452,
+    "sea_water_temperature": 7.059
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 237.916809594353,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 90.391956,
+    "sea_water_density": 1028.7129,
+    "sea_water_practical_salinity": 34.5768,
+    "sea_water_temperature": 6.746
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 136.845581198818,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 230.09454,
+    "sea_water_density": 1027.1368,
+    "sea_water_practical_salinity": 33.1341,
+    "sea_water_temperature": 3.755
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 105.67801226779,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 305.81622,
+    "sea_water_density": 1026.5288,
+    "sea_water_practical_salinity": 32.1348,
+    "sea_water_temperature": 1.225
+  },
+  {
+    "time": "2022-06-17T09:40:00",
+    "depth": 5.25545013483988,
+    "Latitude": 48.0158,
+    "Longitude": -60.4954,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 295.009164,
+    "sea_water_density": 1022.8966,
+    "sea_water_practical_salinity": 31.0143,
+    "sea_water_temperature": 9.839
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 371.15114036006,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 140.77167200000002,
+    "sea_water_density": 1030.447,
+    "sea_water_practical_salinity": 34.9953,
+    "sea_water_temperature": 6.478
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 309.665923287825,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 128.54797200000002,
+    "sea_water_density": 1029.5932,
+    "sea_water_practical_salinity": 34.9466,
+    "sea_water_temperature": 7.447
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 298.358800019304,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 120.636452,
+    "sea_water_density": 1029.4525,
+    "sea_water_practical_salinity": 34.9138,
+    "sea_water_temperature": 7.448
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 288.496738215483,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 119.976824,
+    "sea_water_density": 1029.3243,
+    "sea_water_practical_salinity": 34.8898,
+    "sea_water_temperature": 7.495
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 278.604496082133,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 128.167456,
+    "sea_water_density": 1029.1712,
+    "sea_water_practical_salinity": 34.8798,
+    "sea_water_temperature": 7.721
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 268.186925557198,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 124.961684,
+    "sea_water_density": 1029.0317,
+    "sea_water_practical_salinity": 34.8241,
+    "sea_water_temperature": 7.67
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 210.128010949819,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 115.150596,
+    "sea_water_density": 1028.3211,
+    "sea_water_practical_salinity": 34.3961,
+    "sea_water_temperature": 6.58
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 102.097882039007,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 300.126552,
+    "sea_water_density": 1026.5904,
+    "sea_water_practical_salinity": 32.1431,
+    "sea_water_temperature": 0.77
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 45.2112903170134,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 323.04988000000003,
+    "sea_water_density": 1024.756,
+    "sea_water_practical_salinity": 31.5103,
+    "sea_water_temperature": 4.541
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 30.4592311422745,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 313.595212,
+    "sea_water_density": 1024.0274,
+    "sea_water_practical_salinity": 31.2958,
+    "sea_water_temperature": 6.582
+  },
+  {
+    "time": "2022-06-17T13:40:00",
+    "depth": 5.40406845299099,
+    "Latitude": 48.2555,
+    "Longitude": -59.9752,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 298.648664,
+    "sea_water_density": 1023.1765,
+    "sea_water_practical_salinity": 31.2393,
+    "sea_water_temperature": 9.347
+  },
+  {
+    "time": "2022-06-18T03:42:00",
+    "depth": 277.694249896466,
+    "Latitude": 50.1775,
+    "Longitude": -58.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 64.58815200000001,
+    "sea_water_density": 1029.1737,
+    "sea_water_practical_salinity": 34.7093,
+    "sea_water_temperature": 6.983
+  },
+  {
+    "time": "2022-06-18T03:42:00",
+    "depth": 76.1757654176798,
+    "Latitude": 50.1775,
+    "Longitude": -58.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 283.29449200000005,
+    "sea_water_density": 1026.4367,
+    "sea_water_practical_salinity": 32.3505,
+    "sea_water_temperature": 1.061
+  },
+  {
+    "time": "2022-06-18T03:42:00",
+    "depth": 20.2039635594321,
+    "Latitude": 50.1775,
+    "Longitude": -58.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 334.85692,
+    "sea_water_density": 1024.3122,
+    "sea_water_practical_salinity": 31.1535,
+    "sea_water_temperature": 4.072
+  },
+  {
+    "time": "2022-06-18T03:42:00",
+    "depth": 5.16518758319517,
+    "Latitude": 50.1775,
+    "Longitude": -58.2992,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 290.492168,
+    "sea_water_density": 1022.0368,
+    "sea_water_practical_salinity": 29.8906,
+    "sea_water_temperature": 9.639
+  },
+  {
+    "time": "2022-06-18T06:49:00",
+    "depth": 248.477118819542,
+    "Latitude": 50.5337,
+    "Longitude": -57.9125,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.487736,
+    "sea_water_density": 1028.8412,
+    "sea_water_practical_salinity": 34.6374,
+    "sea_water_temperature": 6.883
+  },
+  {
+    "time": "2022-06-18T06:49:00",
+    "depth": 50.3063066464539,
+    "Latitude": 50.5337,
+    "Longitude": -57.9125,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 315.19358000000005,
+    "sea_water_density": 1026.0145,
+    "sea_water_practical_salinity": 32.0445,
+    "sea_water_temperature": 0.643
+  },
+  {
+    "time": "2022-06-18T06:49:00",
+    "depth": 26.2698620199235,
+    "Latitude": 50.5337,
+    "Longitude": -57.9125,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 343.666016,
+    "sea_water_density": 1025.0561,
+    "sea_water_practical_salinity": 31.5926,
+    "sea_water_temperature": 2.415
+  },
+  {
+    "time": "2022-06-18T06:49:00",
+    "depth": 5.69043772488929,
+    "Latitude": 50.5337,
+    "Longitude": -57.9125,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 299.931776,
+    "sea_water_density": 1023.0817,
+    "sea_water_practical_salinity": 30.8704,
+    "sea_water_temperature": 8.36
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 325.149576664585,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.424484,
+    "sea_water_density": 1029.6677,
+    "sea_water_practical_salinity": 34.7327,
+    "sea_water_temperature": 7.004
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 316.082527396052,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 65.590144,
+    "sea_water_density": 1029.5758,
+    "sea_water_practical_salinity": 34.7319,
+    "sea_water_temperature": 7.002
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 299.739052131442,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 72.34706399999999,
+    "sea_water_density": 1029.3983,
+    "sea_water_practical_salinity": 34.7181,
+    "sea_water_temperature": 7.009
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 275.810493971824,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.72876879999998,
+    "sea_water_density": 1029.1334,
+    "sea_water_practical_salinity": 34.6696,
+    "sea_water_temperature": 6.931
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 200.828833809029,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 118.718812,
+    "sea_water_density": 1028.2088,
+    "sea_water_practical_salinity": 34.2681,
+    "sea_water_temperature": 6.162
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 150.568259305759,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 165.74014800000003,
+    "sea_water_density": 1027.5388,
+    "sea_water_practical_salinity": 33.7529,
+    "sea_water_temperature": 4.914
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 80.6841916289983,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 335.59486000000004,
+    "sea_water_density": 1026.8324,
+    "sea_water_practical_salinity": 32.3308,
+    "sea_water_temperature": -0.769
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 45.9066662528378,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 345.546508,
+    "sea_water_density": 1026.0283,
+    "sea_water_practical_salinity": 31.95,
+    "sea_water_temperature": -0.026
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 14.9597069924262,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 335.858912,
+    "sea_water_density": 1024.3841,
+    "sea_water_practical_salinity": 31.1573,
+    "sea_water_temperature": 3.463
+  },
+  {
+    "time": "2022-06-18T13:34:00",
+    "depth": 5.79961876362853,
+    "Latitude": 50.282,
+    "Longitude": -58.4187,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 309.59126,
+    "sea_water_density": 1022.9415,
+    "sea_water_practical_salinity": 30.4848,
+    "sea_water_temperature": 7.524
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 249.843855312307,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 73.275764,
+    "sea_water_density": 1028.8364,
+    "sea_water_practical_salinity": 34.5958,
+    "sea_water_temperature": 6.809
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 240.436632275255,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 77.559832,
+    "sea_water_density": 1028.7284,
+    "sea_water_practical_salinity": 34.5678,
+    "sea_water_temperature": 6.762
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 235.653636765763,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 78.330904,
+    "sea_water_density": 1028.6751,
+    "sea_water_practical_salinity": 34.5538,
+    "sea_water_temperature": 6.731
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 220.917745118509,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 89.74638399999999,
+    "sea_water_density": 1028.5048,
+    "sea_water_practical_salinity": 34.5174,
+    "sea_water_temperature": 6.693
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 200.9017784139,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 103.447972,
+    "sea_water_density": 1028.2452,
+    "sea_water_practical_salinity": 34.3648,
+    "sea_water_temperature": 6.37
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 75.2844658078919,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 326.587976,
+    "sea_water_density": 1026.3701,
+    "sea_water_practical_salinity": 32.0148,
+    "sea_water_temperature": 0.006
+  },
+  {
+    "time": "2022-06-18T18:03:00",
+    "depth": 6.09714037284698,
+    "Latitude": 50.0839,
+    "Longitude": -58.9242,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 303.779104,
+    "sea_water_density": 1023.2313,
+    "sea_water_practical_salinity": 31.1237,
+    "sea_water_temperature": 8.646
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 204.856311401606,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 98.97214,
+    "sea_water_density": 1028.276,
+    "sea_water_practical_salinity": 34.4399,
+    "sea_water_temperature": 6.716
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 175.31922376344,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 157.099724,
+    "sea_water_density": 1027.8072,
+    "sea_water_practical_salinity": 33.9356,
+    "sea_water_temperature": 5.552
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 152.336387136314,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 182.601324,
+    "sea_water_density": 1027.4885,
+    "sea_water_practical_salinity": 33.6148,
+    "sea_water_temperature": 4.702
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 102.002897347173,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 269.79872400000005,
+    "sea_water_density": 1026.7808,
+    "sea_water_practical_salinity": 32.5719,
+    "sea_water_temperature": 1.529
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 60.2504018039862,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 341.009432,
+    "sea_water_density": 1025.859,
+    "sea_water_practical_salinity": 31.7865,
+    "sea_water_temperature": 0.89
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 49.0601180019922,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 349.752264,
+    "sea_water_density": 1025.613,
+    "sea_water_practical_salinity": 31.6979,
+    "sea_water_temperature": 1.201
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 38.4837954954111,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 349.13982400000003,
+    "sea_water_density": 1025.2821,
+    "sea_water_practical_salinity": 31.6286,
+    "sea_water_temperature": 2.045
+  },
+  {
+    "time": "2022-06-18T20:43:00",
+    "depth": 5.7204867673341,
+    "Latitude": 49.9397,
+    "Longitude": -58.6545,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 292.396756,
+    "sea_water_density": 1023.1062,
+    "sea_water_practical_salinity": 31.1489,
+    "sea_water_temperature": 9.353
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 246.363652336178,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 74.01069199999999,
+    "sea_water_density": 1028.8102,
+    "sea_water_practical_salinity": 34.6468,
+    "sea_water_temperature": 6.968
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 236.302468741374,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 81.870004,
+    "sea_water_density": 1028.6892,
+    "sea_water_practical_salinity": 34.6287,
+    "sea_water_temperature": 6.993
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 231.628207846667,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 86.505472,
+    "sea_water_density": 1028.6334,
+    "sea_water_practical_salinity": 34.616,
+    "sea_water_temperature": 6.985
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 216.654011421347,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 94.67502,
+    "sea_water_density": 1028.452,
+    "sea_water_practical_salinity": 34.5535,
+    "sea_water_temperature": 6.886
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 196.072612109411,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 109.520164,
+    "sea_water_density": 1028.1659,
+    "sea_water_practical_salinity": 34.2981,
+    "sea_water_temperature": 6.256
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 105.422522558857,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 283.970184,
+    "sea_water_density": 1026.9467,
+    "sea_water_practical_salinity": 32.5544,
+    "sea_water_temperature": 0.802
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 55.3248542676708,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 344.479256,
+    "sea_water_density": 1025.9779,
+    "sea_water_practical_salinity": 31.8333,
+    "sea_water_temperature": 0.234
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 39.9809190374606,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 356.410792,
+    "sea_water_density": 1025.5854,
+    "sea_water_practical_salinity": 31.7111,
+    "sea_water_temperature": 0.934
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 20.5416322784182,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 332.646112,
+    "sea_water_density": 1024.3495,
+    "sea_water_practical_salinity": 31.3001,
+    "sea_water_temperature": 4.489
+  },
+  {
+    "time": "2022-06-18T01:19:00",
+    "depth": 5.34379896224313,
+    "Latitude": 49.8442,
+    "Longitude": -59.4348,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 302.79418,
+    "sea_water_density": 1023.1987,
+    "sea_water_practical_salinity": 30.9313,
+    "sea_water_temperature": 8.001
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 211.001167471243,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 117.220844,
+    "sea_water_density": 1028.3123,
+    "sea_water_practical_salinity": 34.418,
+    "sea_water_temperature": 6.757
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 200.561754040339,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 119.551128,
+    "sea_water_density": 1028.1981,
+    "sea_water_practical_salinity": 34.3907,
+    "sea_water_temperature": 6.692
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 195.450803883811,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 124.181576,
+    "sea_water_density": 1028.1321,
+    "sea_water_practical_salinity": 34.3908,
+    "sea_water_temperature": 6.764
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 180.067660296748,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 149.86590400000003,
+    "sea_water_density": 1027.9004,
+    "sea_water_practical_salinity": 34.1407,
+    "sea_water_temperature": 6.146
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 160.849491435543,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 173.783192,
+    "sea_water_density": 1027.6135,
+    "sea_water_practical_salinity": 33.7461,
+    "sea_water_temperature": 5.032
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 100.03291694398,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 340.376912,
+    "sea_water_density": 1027.3137,
+    "sea_water_practical_salinity": 32.5056,
+    "sea_water_temperature": -1.5
+  },
+  {
+    "time": "2022-06-19T03:02:00",
+    "depth": 40.8834130466513,
+    "Latitude": 49.7204,
+    "Longitude": -59.2166,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 350.00527200000005,
+    "sea_water_density": 1025.984,
+    "sea_water_practical_salinity": 31.8887,
+    "sea_water_temperature": -0.303
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 233.640201068906,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.493024,
+    "sea_water_density": 1028.6389,
+    "sea_water_practical_salinity": 34.7271,
+    "sea_water_temperature": 7.503
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 223.815593663608,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 108.978004,
+    "sea_water_density": 1028.5129,
+    "sea_water_practical_salinity": 34.6609,
+    "sea_water_temperature": 7.372
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 218.457419098495,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 114.972888,
+    "sea_water_density": 1028.4461,
+    "sea_water_practical_salinity": 34.6442,
+    "sea_water_temperature": 7.369
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 203.372564583596,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 132.88224000000002,
+    "sea_water_density": 1028.2385,
+    "sea_water_practical_salinity": 34.5339,
+    "sea_water_temperature": 7.204
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 183.690262900418,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 139.92329200000003,
+    "sea_water_density": 1027.9804,
+    "sea_water_practical_salinity": 34.2216,
+    "sea_water_temperature": 6.252
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 70.6810454217006,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 322.4023,
+    "sea_water_density": 1026.1831,
+    "sea_water_practical_salinity": 31.9501,
+    "sea_water_temperature": 0.45
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 22.6443858296899,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 317.835104,
+    "sea_water_density": 1023.9328,
+    "sea_water_practical_salinity": 31.2672,
+    "sea_water_temperature": 6.547
+  },
+  {
+    "time": "2022-06-19T10:03:00",
+    "depth": 5.44320968787889,
+    "Latitude": 49.3016,
+    "Longitude": -59.4713,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 297.304308,
+    "sea_water_density": 1023.0347,
+    "sea_water_practical_salinity": 30.9297,
+    "sea_water_temperature": 8.82
+  },
+  {
+    "time": "2022-06-19T12:37:00",
+    "depth": 232.231110888324,
+    "Latitude": 49.4325,
+    "Longitude": -59.8393,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.73645599999999,
+    "sea_water_density": 1028.6523,
+    "sea_water_practical_salinity": 34.6741,
+    "sea_water_temperature": 7.153
+  },
+  {
+    "time": "2022-06-19T12:37:00",
+    "depth": 222.812618139427,
+    "Latitude": 49.4325,
+    "Longitude": -59.8393,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.775612,
+    "sea_water_density": 1028.5521,
+    "sea_water_practical_salinity": 34.6615,
+    "sea_water_temperature": 7.128
+  },
+  {
+    "time": "2022-06-19T12:37:00",
+    "depth": 218.761840096015,
+    "Latitude": 49.4325,
+    "Longitude": -59.8393,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.809748,
+    "sea_water_density": 1028.5036,
+    "sea_water_practical_salinity": 34.645,
+    "sea_water_temperature": 7.1
+  },
+  {
+    "time": "2022-06-19T12:37:00",
+    "depth": 60.6298360771217,
+    "Latitude": 49.4325,
+    "Longitude": -59.8393,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 341.214248,
+    "sea_water_density": 1025.9438,
+    "sea_water_practical_salinity": 31.7858,
+    "sea_water_temperature": 0.482
+  },
+  {
+    "time": "2022-06-19T12:37:00",
+    "depth": 5.31425585048299,
+    "Latitude": 49.4325,
+    "Longitude": -59.8393,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 301.78516,
+    "sea_water_density": 1023.2629,
+    "sea_water_practical_salinity": 31.1009,
+    "sea_water_temperature": 8.357
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 282.454479700335,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 75.59500399999999,
+    "sea_water_density": 1029.2404,
+    "sea_water_practical_salinity": 34.7647,
+    "sea_water_temperature": 7.111
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 272.721483725933,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 75.527736,
+    "sea_water_density": 1029.1394,
+    "sea_water_practical_salinity": 34.7579,
+    "sea_water_temperature": 7.097
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 257.086336788996,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 76.45744,
+    "sea_water_density": 1028.9699,
+    "sea_water_practical_salinity": 34.7429,
+    "sea_water_temperature": 7.095
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 110.569026934818,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 291.646768,
+    "sea_water_density": 1027.1509,
+    "sea_water_practical_salinity": 32.646,
+    "sea_water_temperature": 0.407
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 80.3927331216708,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 304.77908800000006,
+    "sea_water_density": 1026.5678,
+    "sea_water_practical_salinity": 32.2855,
+    "sea_water_temperature": 0.358
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 36.7506364467654,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 357.937876,
+    "sea_water_density": 1025.3223,
+    "sea_water_practical_salinity": 31.6693,
+    "sea_water_temperature": 1.919
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 22.5052202166232,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 328.715452,
+    "sea_water_density": 1024.4486,
+    "sea_water_practical_salinity": 31.5322,
+    "sea_water_temperature": 5.021
+  },
+  {
+    "time": "2022-06-19T16:09:00",
+    "depth": 5.70089585152321,
+    "Latitude": 49.4829,
+    "Longitude": -60.4796,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 296.74307200000004,
+    "sea_water_density": 1023.4805,
+    "sea_water_practical_salinity": 31.3893,
+    "sea_water_temperature": 8.442
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 250.033496255002,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 80.673236,
+    "sea_water_density": 1028.8274,
+    "sea_water_practical_salinity": 34.5848,
+    "sea_water_temperature": 6.819
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 240.516919214064,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 87.957256,
+    "sea_water_density": 1028.7094,
+    "sea_water_practical_salinity": 34.5571,
+    "sea_water_temperature": 6.818
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 225.830222468158,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 96.022388,
+    "sea_water_density": 1028.5357,
+    "sea_water_practical_salinity": 34.5246,
+    "sea_water_temperature": 6.815
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 200.485028902315,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 116.282104,
+    "sea_water_density": 1028.2175,
+    "sea_water_practical_salinity": 34.4415,
+    "sea_water_temperature": 6.794
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 90.8574885772453,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 310.343256,
+    "sea_water_density": 1026.9094,
+    "sea_water_practical_salinity": 32.4463,
+    "sea_water_temperature": -0.179
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 50.984683814813,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 351.233164,
+    "sea_water_density": 1025.808,
+    "sea_water_practical_salinity": 31.7914,
+    "sea_water_temperature": 0.697
+  },
+  {
+    "time": "2022-06-19T17:43:00",
+    "depth": 10.0432931268913,
+    "Latitude": 49.5828,
+    "Longitude": -60.42,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 296.81536,
+    "sea_water_density": 1023.4731,
+    "sea_water_practical_salinity": 31.3082,
+    "sea_water_temperature": 8.374
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 253.010693291742,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 66.745748,
+    "sea_water_density": 1028.9374,
+    "sea_water_practical_salinity": 34.7089,
+    "sea_water_temperature": 6.916
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 243.326037579423,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 70.010756,
+    "sea_water_density": 1028.8309,
+    "sea_water_practical_salinity": 34.6943,
+    "sea_water_temperature": 6.901
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 238.572665221485,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 75.67934,
+    "sea_water_density": 1028.7499,
+    "sea_water_practical_salinity": 34.636,
+    "sea_water_temperature": 6.833
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 223.489882249637,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 88.483352,
+    "sea_water_density": 1028.53,
+    "sea_water_practical_salinity": 34.5088,
+    "sea_water_temperature": 6.662
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 203.54285853789,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 104.759196,
+    "sea_water_density": 1028.2503,
+    "sea_water_practical_salinity": 34.2891,
+    "sea_water_temperature": 6.175
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 65.1279838051174,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 325.823932,
+    "sea_water_density": 1026.5981,
+    "sea_water_practical_salinity": 32.2216,
+    "sea_water_temperature": -0.819
+  },
+  {
+    "time": "2022-06-19T20:09:00",
+    "depth": 5.34385330515144,
+    "Latitude": 49.7325,
+    "Longitude": -60.8776,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 288.11971600000004,
+    "sea_water_density": 1022.9539,
+    "sea_water_practical_salinity": 31.0565,
+    "sea_water_temperature": 9.726
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 264.884717724664,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 59.11836,
+    "sea_water_density": 1029.0908,
+    "sea_water_practical_salinity": 34.7588,
+    "sea_water_temperature": 6.948
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 258.656414639869,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 59.091252,
+    "sea_water_density": 1029.0266,
+    "sea_water_practical_salinity": 34.7561,
+    "sea_water_temperature": 6.944
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 254.2994607936,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 59.170568,
+    "sea_water_density": 1028.9806,
+    "sea_water_practical_salinity": 34.7529,
+    "sea_water_temperature": 6.941
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 245.070335126137,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 51.38756,
+    "sea_water_density": 1028.8627,
+    "sea_water_practical_salinity": 34.7067,
+    "sea_water_temperature": 6.88
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 235.246604016357,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 59.976780000000005,
+    "sea_water_density": 1028.7436,
+    "sea_water_practical_salinity": 34.6729,
+    "sea_water_temperature": 6.844
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 220.411086884039,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 72.801876,
+    "sea_water_density": 1028.5504,
+    "sea_water_practical_salinity": 34.5941,
+    "sea_water_temperature": 6.746
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 70.579567083158,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 315.910436,
+    "sea_water_density": 1026.6062,
+    "sea_water_practical_salinity": 32.2193,
+    "sea_water_temperature": -0.594
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 12.3432690987256,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 300.81730400000004,
+    "sea_water_density": 1023.3643,
+    "sea_water_practical_salinity": 31.1922,
+    "sea_water_temperature": 8.57
+  },
+  {
+    "time": "2022-06-19T01:09:00",
+    "depth": 5.0266260648551,
+    "Latitude": 49.6688,
+    "Longitude": -61.8179,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 292.339528,
+    "sea_water_density": 1023.0521,
+    "sea_water_practical_salinity": 31.104,
+    "sea_water_temperature": 9.409
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 269.124426908264,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 76.790768,
+    "sea_water_density": 1029.0952,
+    "sea_water_practical_salinity": 34.7689,
+    "sea_water_temperature": 7.18
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 248.329196926954,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 82.047712,
+    "sea_water_density": 1028.8655,
+    "sea_water_practical_salinity": 34.74,
+    "sea_water_temperature": 7.163
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 228.145907861908,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 99.973128,
+    "sea_water_density": 1028.5881,
+    "sea_water_practical_salinity": 34.627,
+    "sea_water_temperature": 7.079
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 215.904241832624,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 115.788136,
+    "sea_water_density": 1028.4294,
+    "sea_water_practical_salinity": 34.5704,
+    "sea_water_temperature": 7.028
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 208.881791561227,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 107.354536,
+    "sea_water_density": 1028.346,
+    "sea_water_practical_salinity": 34.518,
+    "sea_water_temperature": 6.881
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 188.308293638146,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 137.421324,
+    "sea_water_density": 1028.0453,
+    "sea_water_practical_salinity": 34.4067,
+    "sea_water_temperature": 6.901
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 159.044212534257,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 144.70132800000002,
+    "sea_water_density": 1027.6827,
+    "sea_water_practical_salinity": 33.9987,
+    "sea_water_temperature": 5.605
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 149.176302466202,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 161.51632,
+    "sea_water_density": 1027.5305,
+    "sea_water_practical_salinity": 33.842,
+    "sea_water_temperature": 5.241
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 70.1663488574788,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 329.64013600000004,
+    "sea_water_density": 1026.1578,
+    "sea_water_practical_salinity": 31.8893,
+    "sea_water_temperature": 0.307
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 17.9850238207418,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 308.121404,
+    "sea_water_density": 1023.6969,
+    "sea_water_practical_salinity": 31.1861,
+    "sea_water_temperature": 7.167
+  },
+  {
+    "time": "2022-06-20T12:22:00",
+    "depth": 5.56224089377826,
+    "Latitude": 49.1922,
+    "Longitude": -60.2109,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 295.769192,
+    "sea_water_density": 1022.9019,
+    "sea_water_practical_salinity": 30.8412,
+    "sea_water_temperature": 9.136
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 275.07086606227,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.65368,
+    "sea_water_density": 1029.2026,
+    "sea_water_practical_salinity": 34.8886,
+    "sea_water_temperature": 7.422
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 265.119220711073,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 100.916888,
+    "sea_water_density": 1029.0574,
+    "sea_water_practical_salinity": 34.8533,
+    "sea_water_temperature": 7.504
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 254.721464362199,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.636756,
+    "sea_water_density": 1028.9234,
+    "sea_water_practical_salinity": 34.8222,
+    "sea_water_temperature": 7.525
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 240.520249619169,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 106.40676,
+    "sea_water_density": 1028.7303,
+    "sea_water_practical_salinity": 34.7441,
+    "sea_water_temperature": 7.461
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 225.367242908363,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 120.898496,
+    "sea_water_density": 1028.5155,
+    "sea_water_practical_salinity": 34.6124,
+    "sea_water_temperature": 7.243
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 89.8218521441843,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 311.658496,
+    "sea_water_density": 1026.2445,
+    "sea_water_practical_salinity": 32.0812,
+    "sea_water_temperature": 1.633
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 20.6919645882197,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 311.088224,
+    "sea_water_density": 1023.4797,
+    "sea_water_practical_salinity": 30.9292,
+    "sea_water_temperature": 7.362
+  },
+  {
+    "time": "2022-06-20T15:59:00",
+    "depth": 5.62183824997815,
+    "Latitude": 48.9801,
+    "Longitude": -59.7494,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 297.76815600000003,
+    "sea_water_density": 1022.7988,
+    "sea_water_practical_salinity": 30.7741,
+    "sea_water_temperature": 9.386
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 321.760640774645,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 129.728676,
+    "sea_water_density": 1029.893,
+    "sea_water_practical_salinity": 34.9827,
+    "sea_water_temperature": 6.704
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 307.732029823707,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 125.249832,
+    "sea_water_density": 1029.6871,
+    "sea_water_practical_salinity": 34.9692,
+    "sea_water_temperature": 6.971
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 277.592524705567,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 126.377324,
+    "sea_water_density": 1029.2463,
+    "sea_water_practical_salinity": 34.9328,
+    "sea_water_temperature": 7.507
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 260.500946601069,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 120.837252,
+    "sea_water_density": 1029.0347,
+    "sea_water_practical_salinity": 34.8937,
+    "sea_water_temperature": 7.546
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 240.575481030004,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 119.261976,
+    "sea_water_density": 1028.7854,
+    "sea_water_practical_salinity": 34.8526,
+    "sea_water_temperature": 7.622
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 220.004271812803,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 119.455748,
+    "sea_water_density": 1028.5163,
+    "sea_water_practical_salinity": 34.7199,
+    "sea_water_temperature": 7.398
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 51.0580908978191,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 319.637284,
+    "sea_water_density": 1025.8228,
+    "sea_water_practical_salinity": 31.8837,
+    "sea_water_temperature": 0.996
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 35.8312254164255,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 339.066692,
+    "sea_water_density": 1024.9074,
+    "sea_water_practical_salinity": 31.3117,
+    "sea_water_temperature": 2.517
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 16.6374152482431,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 323.753684,
+    "sea_water_density": 1023.1284,
+    "sea_water_practical_salinity": 30.5732,
+    "sea_water_temperature": 7.49
+  },
+  {
+    "time": "2022-06-20T22:16:00",
+    "depth": 5.8797657135237,
+    "Latitude": 48.7205,
+    "Longitude": -60.0488,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 290.084544,
+    "sea_water_density": 1022.1913,
+    "sea_water_practical_salinity": 30.2367,
+    "sea_water_temperature": 10.287
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 257.5254874302,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 80.055776,
+    "sea_water_density": 1029.0017,
+    "sea_water_practical_salinity": 34.807,
+    "sea_water_temperature": 7.214
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 231.32100862129,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 110.734,
+    "sea_water_density": 1028.6946,
+    "sea_water_practical_salinity": 34.8361,
+    "sea_water_temperature": 7.543
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 205.024036830816,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 123.58017999999998,
+    "sea_water_density": 1028.3313,
+    "sea_water_practical_salinity": 34.6994,
+    "sea_water_temperature": 7.485
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 180.09080113305,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 132.817984,
+    "sea_water_density": 1028.0069,
+    "sea_water_practical_salinity": 34.5272,
+    "sea_water_temperature": 7.16
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 60.1569094075071,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 336.032604,
+    "sea_water_density": 1025.9211,
+    "sea_water_practical_salinity": 31.8451,
+    "sea_water_temperature": 0.809
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 40.4204935940053,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 337.406076,
+    "sea_water_density": 1025.0362,
+    "sea_water_practical_salinity": 31.3964,
+    "sea_water_temperature": 2.443
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 17.71779069485,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 326.246616,
+    "sea_water_density": 1023.7171,
+    "sea_water_practical_salinity": 30.9752,
+    "sea_water_temperature": 6.209
+  },
+  {
+    "time": "2022-06-20T01:31:00",
+    "depth": 5.73093637876921,
+    "Latitude": 48.9152,
+    "Longitude": -60.4202,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 294.87764,
+    "sea_water_density": 1022.8975,
+    "sea_water_practical_salinity": 30.9654,
+    "sea_water_temperature": 9.663
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 395.089286856346,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 111.516116,
+    "sea_water_density": 1030.7052,
+    "sea_water_practical_salinity": 34.9986,
+    "sea_water_temperature": 6.41
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 357.814983374963,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 109.788232,
+    "sea_water_density": 1030.271,
+    "sea_water_practical_salinity": 34.9801,
+    "sea_water_temperature": 6.624
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 310.504706444936,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 101.360656,
+    "sea_water_density": 1029.725,
+    "sea_water_practical_salinity": 34.9415,
+    "sea_water_temperature": 6.81
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 285.127500186645,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 113.248016,
+    "sea_water_density": 1029.396,
+    "sea_water_practical_salinity": 34.9321,
+    "sea_water_temperature": 7.136
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 269.343139218571,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 106.176844,
+    "sea_water_density": 1029.1868,
+    "sea_water_practical_salinity": 34.8881,
+    "sea_water_temperature": 7.209
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 250.56668663147,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 107.110564,
+    "sea_water_density": 1028.9495,
+    "sea_water_practical_salinity": 34.8525,
+    "sea_water_temperature": 7.305
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 230.689109383684,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 93.5405,
+    "sea_water_density": 1028.7187,
+    "sea_water_practical_salinity": 34.7491,
+    "sea_water_temperature": 7.042
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 50.2072631062735,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 309.31014,
+    "sea_water_density": 1026.0623,
+    "sea_water_practical_salinity": 32.0256,
+    "sea_water_temperature": 0.323
+  },
+  {
+    "time": "2022-06-21T11:45:00",
+    "depth": 5.09663910090832,
+    "Latitude": 48.3535,
+    "Longitude": -60.9577,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 303.08333200000004,
+    "sea_water_density": 1022.754,
+    "sea_water_practical_salinity": 30.653,
+    "sea_water_temperature": 9.099
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 410.233067391749,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 113.433756,
+    "sea_water_density": 1030.8516,
+    "sea_water_practical_salinity": 34.9995,
+    "sea_water_temperature": 6.447
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 349.394721111348,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 122.58622,
+    "sea_water_density": 1030.1788,
+    "sea_water_practical_salinity": 34.9894,
+    "sea_water_temperature": 6.697
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 272.388185128132,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 109.505104,
+    "sea_water_density": 1029.2165,
+    "sea_water_practical_salinity": 34.9022,
+    "sea_water_temperature": 7.271
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 250.601723833844,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 104.530284,
+    "sea_water_density": 1028.9477,
+    "sea_water_practical_salinity": 34.8558,
+    "sea_water_temperature": 7.329
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 228.476197657309,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 104.712008,
+    "sea_water_density": 1028.6625,
+    "sea_water_practical_salinity": 34.7668,
+    "sea_water_temperature": 7.282
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 201.019006364542,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 127.270884,
+    "sea_water_density": 1028.2728,
+    "sea_water_practical_salinity": 34.6769,
+    "sea_water_temperature": 7.485
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 151.117148849929,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 145.49850400000005,
+    "sea_water_density": 1027.5928,
+    "sea_water_practical_salinity": 34.0333,
+    "sea_water_temperature": 5.792
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 101.500460620876,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 212.123944,
+    "sea_water_density": 1026.8973,
+    "sea_water_practical_salinity": 33.0062,
+    "sea_water_temperature": 2.658
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 60.8329652337495,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 322.89426,
+    "sea_water_density": 1026.0814,
+    "sea_water_practical_salinity": 31.9275,
+    "sea_water_temperature": 0.371
+  },
+  {
+    "time": "2022-06-21T16:09:00",
+    "depth": 5.87985601370562,
+    "Latitude": 48.5528,
+    "Longitude": -61.7046,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 294.091508,
+    "sea_water_density": 1023.0737,
+    "sea_water_practical_salinity": 31.2435,
+    "sea_water_temperature": 9.902
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 337.274695046136,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 52.72288,
+    "sea_water_density": 1029.9693,
+    "sea_water_practical_salinity": 34.8709,
+    "sea_water_temperature": 6.66
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 299.222082788779,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 60.22778,
+    "sea_water_density": 1029.5346,
+    "sea_water_practical_salinity": 34.7952,
+    "sea_water_temperature": 6.609
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 255.132035711267,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 52.844364000000006,
+    "sea_water_density": 1029.0518,
+    "sea_water_practical_salinity": 34.7291,
+    "sea_water_temperature": 6.532
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 249.90357416645,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 67.349152,
+    "sea_water_density": 1028.9971,
+    "sea_water_practical_salinity": 34.7258,
+    "sea_water_temperature": 6.528
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 244.69478504362,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 309.943664,
+    "sea_water_density": 1028.9221,
+    "sea_water_practical_salinity": 34.7295,
+    "sea_water_temperature": 6.655
+  },
+  {
+    "time": "2022-06-22T20:34:00",
+    "depth": 30.8618269530613,
+    "Latitude": 49.635,
+    "Longitude": -66.0468,
+    "micromoles_of_oxygen_per_unit_mass_in_sea_water": 335.16012800000004,
+    "sea_water_density": 1025.7963,
+    "sea_water_practical_salinity": 31.938,
+    "sea_water_temperature": 0.327
+  }
+]
