@@ -200,7 +200,7 @@
       <tr><th>Date Range</th><td>${dateMin.toLocaleDateString()} - ${dateMax.toLocaleDateString()}</td></tr>
       <tr><th>Depth Range</th><td>${depthMin}m - ${depthMax}m</td></tr>
       <tr><th>Data Points</th><td>${data.length}</td></tr>
-      <tr><th>Number of Casts</th><td>${castGroups.length}</td></tr>
+      <tr><th>Number of Casts</th><td>${castGroups ? castGroups.length : 'Calculating...'}</td></tr>
       <tr><th>Institution</th><td>Dalhousie University</td></tr>`;
 
       document.getElementById('metadata-table').innerHTML = metadataHTML;
@@ -568,9 +568,16 @@
 
         dataset = data;
 
-        // Initialize all visualizations
+        // First update metadata with basic info
         updateMetadata(dataset);
+        
+        // Initialize the map and group data by cast
         initMap(dataset);
+        
+        // Now update metadata again with cast information
+        updateMetadata(dataset);
+        
+        // Initialize plots
         plotScatter('micromoles_of_oxygen_per_unit_mass_in_sea_water');
         plot3D();
         
