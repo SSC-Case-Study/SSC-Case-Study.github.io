@@ -299,7 +299,7 @@
     // 加载本地 JSON 文件函数
     async function loadData() {
       try {
-        const response = await fetch('static_data.json');
+        const response = await fetch('./static_data.json');
         const data = await response.json();
 
         // 格式化时间字符串(如果需要)
