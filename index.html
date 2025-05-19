@@ -4,12 +4,9 @@
   <meta charset="UTF-8" />
   <title>Ocean Data Visualization from JSON</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    /* 保持和之前一致的样式 */
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
@@ -93,6 +90,8 @@
       background-color: white;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      overflow: hidden;
     }
     footer {
       display: none !important;
@@ -104,31 +103,66 @@
       bottom: 0;
       width: 100%;
     }
+    .leaflet-popup-content {
+      width: 520px !important;
+      max-width: 100%;
+    }
+    .cast-profile {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 500px;
+    }
+    .profile-plot {
+      width: 240px;
+      height: 240px;
+      margin-bottom: 10px;
+    }
+    .cast-info {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    /* Show "Loading..." text while data is being loaded */
+    .loading-overlay {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.8);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      font-size: 24px;
+      font-weight: bold;
+    }
   </style>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
   <div class="container">
-    <!-- 左侧 -->
+    <!-- Left side -->
     <div class="left-side">
       <div id="map"></div>
 
       <div class="metadata">
         <h2>Dataset Metadata</h2>
         <table id="metadata-table">
-          <!-- 动态填充 -->
+          <!-- Dynamically filled -->
         </table>
       </div>
     </div>
 
-    <!-- 右侧 -->
+    <!-- Right side -->
     <div class="right-side">
       <div class="control-panel">
         <select id="data-type-select">
           <option value="micromoles_of_oxygen_per_unit_mass_in_sea_water">Oxygen</option>
           <option value="sea_water_density">Density</option>
           <option value="sea_water_practical_salinity">Salinity</option>
+          <option value="sea_water_temperature">Temperature</option>
         </select>
         <button id="update-graph-btn">Update</button>
       </div>
@@ -144,13 +178,15 @@
   </div>
 
   <script>
-    let dataset = []; // 全局存储加载的数据
+    let dataset = []; // Global storage for loaded data
+    let castGroups = []; // Storage for grouped cast data
+    let map; // Store the map globally
 
     function parseDate(str) {
       return new Date(str);
     }
 
-    // 计算元数据并更新表格
+    // Calculate metadata and update table
     function updateMetadata(data) {
       const times = data.map(d => parseDate(d.time));
       const depths = data.map(d => +d.depth);
@@ -164,19 +200,123 @@
       <tr><th>Date Range</th><td>${dateMin.toLocaleDateString()} - ${dateMax.toLocaleDateString()}</td></tr>
       <tr><th>Depth Range</th><td>${depthMin}m - ${depthMax}m</td></tr>
       <tr><th>Data Points</th><td>${data.length}</td></tr>
+      <tr><th>Number of Casts</th><td>${castGroups.length}</td></tr>
       <tr><th>Institution</th><td>Dalhousie University</td></tr>`;
 
       document.getElementById('metadata-table').innerHTML = metadataHTML;
     }
 
-    // 初始化 Leaflet 地图并绘制所有点
+    // Group data by cast (same lat, lon, and time)
+    function groupDataByCast(data) {
+      // Create a unique key for each cast using lat, lon, and time
+      const castMap = new Map();
+      
+      data.forEach(row => {
+        // Round lat/lon to 4 decimal places to account for tiny variations
+        const lat = parseFloat(row.Latitude).toFixed(4);
+        const lon = parseFloat(row.Longitude).toFixed(4);
+        const time = row.time.split('T')[0]; // Just use the date part for grouping
+        
+        const castKey = `${lat}_${lon}_${time}`;
+        
+        if (!castMap.has(castKey)) {
+          castMap.set(castKey, {
+            key: castKey,
+            latitude: parseFloat(row.Latitude),
+            longitude: parseFloat(row.Longitude),
+            time: row.time,
+            samples: []
+          });
+        }
+        
+        castMap.get(castKey).samples.push(row);
+      });
+      
+      // Convert map to array and sort by time
+      const groups = Array.from(castMap.values());
+      
+      // Sort each cast's samples by depth
+      groups.forEach(cast => {
+        cast.samples.sort((a, b) => parseFloat(a.depth) - parseFloat(b.depth));
+        
+        // Calculate ranges for each parameter
+        cast.depthRange = {
+          min: Math.min(...cast.samples.map(d => parseFloat(d.depth))),
+          max: Math.max(...cast.samples.map(d => parseFloat(d.depth)))
+        };
+        
+        cast.temperatureRange = {
+          min: Math.min(...cast.samples.map(d => parseFloat(d.sea_water_temperature))),
+          max: Math.max(...cast.samples.map(d => parseFloat(d.sea_water_temperature)))
+        };
+        
+        cast.salinityRange = {
+          min: Math.min(...cast.samples.map(d => parseFloat(d.sea_water_practical_salinity))),
+          max: Math.max(...cast.samples.map(d => parseFloat(d.sea_water_practical_salinity)))
+        };
+        
+        cast.densityRange = {
+          min: Math.min(...cast.samples.map(d => parseFloat(d.sea_water_density))),
+          max: Math.max(...cast.samples.map(d => parseFloat(d.sea_water_density)))
+        };
+        
+        cast.oxygenRange = {
+          min: Math.min(...cast.samples.map(d => parseFloat(d.micromoles_of_oxygen_per_unit_mass_in_sea_water))),
+          max: Math.max(...cast.samples.map(d => parseFloat(d.micromoles_of_oxygen_per_unit_mass_in_sea_water)))
+        };
+      });
+      
+      return groups;
+    }
+
+    // Initialize Leaflet map and plot all points
     function initMap(data) {
-      const map = L.map('map').setView([44.67, -63.6], 10);
+      // Calculate the center based on the average of all lat/lon
+      const avgLat = data.reduce((sum, row) => sum + parseFloat(row.Latitude), 0) / data.length;
+      const avgLon = data.reduce((sum, row) => sum + parseFloat(row.Longitude), 0) / data.length;
+      
+      map = L.map('map').setView([avgLat, avgLon], 10);
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
       }).addTo(map);
 
+      // Group data by cast
+      castGroups = groupDataByCast(data);
+      console.log(`Found ${castGroups.length} unique casts`);
+      
+      // Add a marker for each cast
+      castGroups.forEach((cast, index) => {
+        const timeDisplay = new Date(cast.time).toLocaleDateString();
+        
+        // Create tooltip with basic info
+        const tooltip = `Cast ${index + 1}: ${timeDisplay}`;
+        
+        // Create content for popup
+        const popupContent = createCastPopupContent(cast, index);
+        
+        // Create marker
+        const marker = L.circleMarker([cast.latitude, cast.longitude], {
+          radius: 6,
+          color: '#0078FF',
+          fillColor: '#0078FF',
+          fillOpacity: 0.8,
+          weight: 2
+        }).bindPopup(popupContent, {
+          maxWidth: 550,
+          maxHeight: 650
+        }).bindTooltip(tooltip).addTo(map);
+        
+        // Store the cast index on the marker for reference
+        marker.castIndex = index;
+        
+        // Add event to render profile plots when popup opens
+        marker.on('popupopen', function(e) {
+          renderCastProfiles(cast, index);
+        });
+      });
+      
+      // Add individual sample points with simpler popups
       data.forEach(row => {
         const popupContent = `
           <b>Time:</b> ${row.time}<br>
@@ -186,24 +326,117 @@
           <b>Density:</b> ${row.sea_water_density} kg/m³<br>
           <b>Latitude:</b> ${row.Latitude}<br>
           <b>Longitude:</b> ${row.Longitude}<br>
+          <b>Depth:</b> ${row.depth} m<br>
         `;
+        
         L.circleMarker([row.Latitude, row.Longitude], {
-          radius: 4,
+          radius: 2,
           color: 'white',
           fillColor: 'white',
-          fillOpacity: 1.0,
+          fillOpacity: 0.5,
         }).bindPopup(popupContent).addTo(map);
       });
     }
 
-    // 根据选择绘制2D散点图
+    // Create HTML content for cast popup
+    function createCastPopupContent(cast, index) {
+      const timeDisplay = new Date(cast.time).toLocaleDateString();
+      
+      return `
+        <div class="cast-info">
+          <b>Cast ${index + 1}</b><br>
+          <b>Time:</b> ${cast.time}<br>
+          <b>Location:</b> ${cast.latitude.toFixed(4)}, ${cast.longitude.toFixed(4)}<br>
+          <b>Samples:</b> ${cast.samples.length}<br>
+          <b>Depth range:</b> ${cast.depthRange.min.toFixed(1)}–${cast.depthRange.max.toFixed(1)} m<br>
+          <b>Temp range:</b> ${cast.temperatureRange.min.toFixed(2)}–${cast.temperatureRange.max.toFixed(2)} °C<br>
+          <b>Salinity range:</b> ${cast.salinityRange.min.toFixed(2)}–${cast.salinityRange.max.toFixed(2)}<br>
+          <b>Density range:</b> ${cast.densityRange.min.toFixed(2)}–${cast.densityRange.max.toFixed(2)} kg/m³<br>
+          <b>Oxygen range:</b> ${cast.oxygenRange.min.toFixed(1)}–${cast.oxygenRange.max.toFixed(1)} µmol/L<br>
+        </div>
+        <div class="cast-profile">
+          <div id="temp-profile-${index}" class="profile-plot"></div>
+          <div id="sal-profile-${index}" class="profile-plot"></div>
+          <div id="density-profile-${index}" class="profile-plot"></div>
+          <div id="oxygen-profile-${index}" class="profile-plot"></div>
+        </div>
+      `;
+    }
+
+    // Render cast profile plots
+    function renderCastProfiles(cast, index) {
+      const depth = cast.samples.map(d => +d.depth);
+      const temp = cast.samples.map(d => +d.sea_water_temperature);
+      const salinity = cast.samples.map(d => +d.sea_water_practical_salinity);
+      const density = cast.samples.map(d => +d.sea_water_density);
+      const oxygen = cast.samples.map(d => +d.micromoles_of_oxygen_per_unit_mass_in_sea_water);
+
+      // Temperature profile
+      Plotly.newPlot(`temp-profile-${index}`, [{
+        x: temp,
+        y: depth,
+        mode: 'lines+markers',
+        marker: { size: 5 },
+        line: { color: 'red' }
+      }], {
+        yaxis: { autorange: 'reversed', title: 'Depth (m)' },
+        xaxis: { title: 'Temp (°C)' },
+        margin: { t: 30, b: 40, l: 60, r: 30 },
+        title: 'Temperature'
+      }, {responsive: true, displayModeBar: false});
+
+      // Salinity profile
+      Plotly.newPlot(`sal-profile-${index}`, [{
+        x: salinity,
+        y: depth,
+        mode: 'lines+markers',
+        marker: { size: 5 },
+        line: { color: 'blue' }
+      }], {
+        yaxis: { autorange: 'reversed', title: 'Depth (m)' },
+        xaxis: { title: 'Salinity' },
+        margin: { t: 30, b: 40, l: 60, r: 30 },
+        title: 'Salinity'
+      }, {responsive: true, displayModeBar: false});
+
+      // Density profile
+      Plotly.newPlot(`density-profile-${index}`, [{
+        x: density,
+        y: depth,
+        mode: 'lines+markers',
+        marker: { size: 5 },
+        line: { color: 'purple' }
+      }], {
+        yaxis: { autorange: 'reversed', title: 'Depth (m)' },
+        xaxis: { title: 'Density (kg/m³)' },
+        margin: { t: 30, b: 40, l: 60, r: 30 },
+        title: 'Density'
+      }, {responsive: true, displayModeBar: false});
+
+      // Oxygen profile
+      Plotly.newPlot(`oxygen-profile-${index}`, [{
+        x: oxygen,
+        y: depth,
+        mode: 'lines+markers',
+        marker: { size: 5 },
+        line: { color: 'green' }
+      }], {
+        yaxis: { autorange: 'reversed', title: 'Depth (m)' },
+        xaxis: { title: 'Oxygen (µmol/L)' },
+        margin: { t: 30, b: 40, l: 60, r: 30 },
+        title: 'Oxygen'
+      }, {responsive: true, displayModeBar: false});
+    }
+
+    // Plot 2D scatter based on selection
     function plotScatter(selectedData) {
       if (!dataset.length) return;
 
       const labels = {
         micromoles_of_oxygen_per_unit_mass_in_sea_water: 'Oxygen (µmol/L)',
         sea_water_density: 'Density (kg/m³)',
-        sea_water_practical_salinity: 'Salinity (PSU)'
+        sea_water_practical_salinity: 'Salinity (PSU)',
+        sea_water_temperature: 'Temperature (°C)'
       };
 
       const x = dataset.map(d => d.time);
@@ -247,7 +480,7 @@
       Plotly.newPlot('scatter-plot', [trace], layout, { responsive: true });
     }
 
-    // 3D 散点图，固定显示氧气
+    // 3D scatter plot with fixed oxygen display
     function plot3D() {
       if (!dataset.length) return;
 
@@ -291,18 +524,42 @@
       Plotly.newPlot('scatter3d-plot', [trace], layout, { responsive: true });
     }
 
+    // Handle button click to update the graph
     document.getElementById('update-graph-btn').addEventListener('click', () => {
       const selectedData = document.getElementById('data-type-select').value;
       plotScatter(selectedData);
     });
 
-    // 加载本地 JSON 文件函数
+    // Add loading overlay function
+    function showLoadingOverlay(elementId) {
+      const element = document.getElementById(elementId);
+      const overlay = document.createElement('div');
+      overlay.className = 'loading-overlay';
+      overlay.innerHTML = 'Loading...';
+      overlay.id = `${elementId}-loading`;
+      element.style.position = 'relative';
+      element.appendChild(overlay);
+    }
+
+    function removeLoadingOverlay(elementId) {
+      const overlay = document.getElementById(`${elementId}-loading`);
+      if (overlay) {
+        overlay.remove();
+      }
+    }
+
+    // Load local JSON file
     async function loadData() {
+      // Show loading indicators
+      showLoadingOverlay('map');
+      showLoadingOverlay('scatter-plot');
+      showLoadingOverlay('scatter3d-plot');
+      
       try {
         const response = await fetch('./static_data.json');
         const data = await response.json();
 
-        // 格式化时间字符串(如果需要)
+        // Format time strings if needed
         data.forEach(d => {
           if (typeof d.time === 'string' && !d.time.endsWith('Z')) {
             d.time += 'Z';
@@ -311,12 +568,24 @@
 
         dataset = data;
 
+        // Initialize all visualizations
         updateMetadata(dataset);
         initMap(dataset);
         plotScatter('micromoles_of_oxygen_per_unit_mass_in_sea_water');
         plot3D();
+        
+        // Remove loading indicators
+        removeLoadingOverlay('map');
+        removeLoadingOverlay('scatter-plot');
+        removeLoadingOverlay('scatter3d-plot');
       } catch (err) {
-        alert('加载数据失败，请确保在服务器环境下打开网页，错误：' + err);
+        console.error('Error loading data:', err);
+        alert('Failed to load data. Please ensure you are opening the page from a server environment. Error: ' + err.message);
+        
+        // Remove loading indicators even if there's an error
+        removeLoadingOverlay('map');
+        removeLoadingOverlay('scatter-plot');
+        removeLoadingOverlay('scatter3d-plot');
       }
     }
 
