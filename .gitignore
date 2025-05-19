@@ -1,0 +1,44 @@
+# IDE settings
+/.idea/
+/logs/
+/*.iml
+/workspace.xml
+/modules.xml
+/misc.xml
+/profiles_settings.xml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Coverage and test results
+coverage/
+*.cover
+*.coverage
+
+# Build artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env
+.Python
+
+# Node.js (if you add JS processing later)
+node_modules/
+.sass-cache/
+.parcel-cache/
+
+# Data export script (optional)
+export_data.py
+
